@@ -1,0 +1,31 @@
+h1, h2, h3, h5, ul, p {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.card {
+    margin: 1rem auto;
+    position: relative;
+}
+
+.card-body {
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 5px;
+    left: 0;
+    background-color: #2D89BC;
+    text-align: center;
+}
