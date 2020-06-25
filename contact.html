@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Styling -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <!-- Javascript -->
+    <link href="contact.js" rel="Javascript">
+    <title>Aiden Threadgoode - Contact</title>
+</head>
+
+<body style="background-color: lightgrey;">
+    <!-- Header -->
+    <div class="container-fluid w-auto" style="border-color: #2D89BC;">
+        <header class="row">
+            <!-- Logo -->
+            <div class="col-md-6 pt-2" style="background-color: #2D89BC;">
+                <h1 class="text-white text-center">Aiden Threadgoode</h1>
+            </div>
+            <!-- Navigation -->
+            <div class="col-md-6 pt-2 border-bottom border-light" style="background-color: #ffffff;">
+                <nav class="col-md pt-1">
+                    <ul class="nav justify-content-center justify-content-md-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- End Nav -->
+        </header>
+    </div>
+    <!-- Main Content -->
+    <div class="container">
+        <main class="row rounded align-items-center m-4" style="background-color: #ffffff; max-width: 40rem;">
+            <article class="col-12 pt-2">
+                <!-- Header -->
+                <h2 class="text-center">
+                    Contact
+                </h2>
+                <hr />
+                <!-- Form -->
+                <div class="col-md-12 justify-content-center">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                        <!-- Name -->
+                        <form class="md-form mb-2"><label for="name" class="">Name</label>
+                            <input type="text" id="name" name="name" class="form-control">
+                        </form>
+                        <!-- Email -->
+                        <form class="md-form mb-2"><label for="email" class="">Email</label>
+                            <input type="text" id="email" name="email" class="form-control">
+                        </form>
+                        <!-- Subject -->
+                        <form class="md-form mb-2"><label for="subject" class="">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                        </form>
+                        <!-- Message -->
+                        <form class="md-form mb-2"><label for="message">Message</label>
+                            <textarea type="text" id="message" name="message" rows="2"
+                                class="form-control md-textarea"></textarea>
+                        </form>
+                        <!-- Button -->
+                        <button type="submit" class="btn btn-primary text-white mb-4" onclick="validateForm();">Submit</button>
+                        <div class="status"></div>
+                    </form>
+                </div>
+                <!-- End form -->
+            </article>
+        </main>
+    </div>
+</body>
+
+</html>
