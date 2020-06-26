@@ -4,7 +4,7 @@ The assignment was to create a mobile responsive website containing an "About Me
 
 ## About Me
 
-I used a bootstrap navbar to make the logo and navigation. I customized it with Google Fonts and custom color to create a basic branded look.
+I used a bootstrap navbar to make the logo and navigation. I customized it with Google Fonts and custom color to create a basic but branded look.
 
 Columns and rows were used to create a responsive layout for the "About Me" section. I used separate columns for the bio and image to optimize responsiveness and create a clean layout.
 
