@@ -18,16 +18,19 @@
     <title>Aiden Threadgoode - Contact</title>
 </head>
 
-<body style="background-color: lightgrey;">
+<body>
+
     <!-- Header -->
-    <div class="container-fluid w-auto" style="border-color: #2D89BC;">
+    <div class="container-fluid w-auto">
         <header class="row">
+
             <!-- Logo -->
-            <div class="col-md-6 pt-2" style="background-color: #2D89BC;">
+            <div class="nav-logo col-md-6 pt-2">
                 <h1 class="text-white text-center">Aiden Threadgoode</h1>
             </div>
+
             <!-- Navigation -->
-            <div class="col-md-6 pt-2 border-bottom border-light" style="background-color: #ffffff;">
+            <div class="nav-header col-md-6 pt-2 border-bottom border-light">
                 <nav class="col-md pt-1">
                     <ul class="nav justify-content-center justify-content-md-end">
                         <li class="nav-item">
@@ -43,50 +46,59 @@
                 </nav>
             </div>
             <!-- End Nav -->
+
         </header>
     </div>
-    <!-- Main Content -->
-    <div class="container" style="margin-bottom: 4rem;">
-        <main class="row rounded align-items-center m-4" style="background-color: #ffffff; max-width: 40rem;">
+    <!-- End Header -->
+
+    <!-- Contact Form -->
+    <div class="main-content rounded container" style="max-width: 40rem;">
+        <main class="contact row rounded align-items-center m-4">
             <article class="col-12 pt-2">
+
                 <!-- Header -->
                 <h2 class="text-center">
                     Contact
                 </h2>
                 <hr />
-                <!-- Form -->
                 <div class="col-md-12 justify-content-center">
                     <form id="contact-form" name="contact-form" action="mailto:aiden.threadgoode@gmail.com"
                         method="post" enctype="text/plain">
+
                         <!-- Name -->
                         <form class="md-form mb-2"><label for="name" class="">Name</label>
                             <input type="text" id="name" name="name" class="form-control">
                         </form>
+
                         <!-- Email -->
                         <form class="md-form mb-2"><label for="email" class="">Email</label>
                             <input type="text" id="email" name="email" class="form-control">
                         </form>
+
                         <!-- Subject -->
                         <form class="md-form mb-2"><label for="subject" class="">Subject</label>
                             <input type="text" id="subject" name="subject" class="form-control">
                         </form>
+
                         <!-- Message -->
                         <form class="md-form mb-2"><label for="message">Message</label>
                             <textarea type="text" id="message" name="message" rows="2"
                                 class="form-control md-textarea"></textarea>
                         </form>
+
                         <!-- Button -->
                         <button type="submit" class="btn btn-primary text-white mb-4" value="Send">Submit</button>
                         <div class="status"></div>
                     </form>
                 </div>
-                <!-- End form -->
             </article>
         </main>
     </div>
-    <!-- Footer -->
-    <nav class="navbar fixed-bottom" style="background-color: #2D89BC;">
-        <div class="mx-auto" style="height: 1.5rem;">
+    <!-- End form -->
+
+    <!-- Sticky Footer -->
+    <nav class="footer navbar fixed-bottom">
+        <div class="mx-auto">
             <p class="text-white">© 2020 Aiden Threadgoode</p>
         </div>
     </nav>

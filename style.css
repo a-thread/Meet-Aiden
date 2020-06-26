@@ -1,3 +1,8 @@
+body {
+    background-color: lightgrey;
+}
+
+/* Cutom Font Stylings */
 h1, h2, h3, h5, ul, p {
     font-family: 'Noto Sans JP', sans-serif;
 }
@@ -15,9 +20,54 @@ h3 {
     font-weight: 500;
 }
 
+/* Branded Coloring for Nav */
+
+.nav-logo {
+    background-color: #2D89BC;
+}
+
+.nav-header {
+    background-color: #ffffff;
+}
+
+/* Main Content */
+.main-content {
+    margin-bottom: 4rem;
+    max-width: 60rem;
+    background-color: #ffffff;
+}
+
+/* Spacing for Headshot */
+.headshot-image {
+    margin-top: 2.5rem;
+    align-items: center;
+}
+
+/* About Me width */
+.about-me {
+    max-width: 35rem;
+}
+
+/* Bio width and spacing */
+.bio {
+    max-width: 35rem;
+}
+
+.bio-p {
+    margin-right: 1.5rem; 
+    margin-left: 1.5rem;
+}
+
+/* Contact */
+.contact {
+    margin-bottom: 4rem;
+    align-items: center;
+}
+
 .card {
     margin: 1rem auto;
     position: relative;
+    max-width: 20rem;
 }
 
 .card-body {
@@ -28,4 +78,10 @@ h3 {
     left: 0;
     background-color: #2D89BC;
     text-align: center;
+}
+
+.footer {
+    background-color: #2D89BC;
+    height: 2.5rem;
+
 }
