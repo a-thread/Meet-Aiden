@@ -10,7 +10,7 @@ Columns and rows were used to create a responsive layout for the "About Me" sect
 
 ## Portfolio
 
-Bootstrap Cards were used to create the portfolio imagery. I used additional CSS to overlay the text and filled in the background with branded coloring.
+Bootstrap Cards were used to create the portfolio imagery. I used additional CSS to overlay the text and filled in the background with branded coloring. I also used canva to create relevant and custom imagery to match the projects to be featured on this page.
 
 ## Contact
 I used a bootstrap form to create the contact page, customizing it to match the reference photo.
