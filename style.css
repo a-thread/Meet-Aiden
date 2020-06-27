@@ -60,10 +60,11 @@ h3 {
 
 /* Contact */
 .contact {
-    margin-bottom: 4rem;
+    margin: 4rem;
     align-items: center;
 }
 
+/* Portfolio */
 .card {
     margin: 1rem auto;
     position: relative;
