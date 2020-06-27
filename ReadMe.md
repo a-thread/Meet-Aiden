@@ -14,9 +14,14 @@ Columns and rows were used to create a responsive layout for the "About Me" sect
 ## Portfolio
 
 Bootstrap Cards were used to create the portfolio imagery. I used additional CSS to overlay the text and filled in the background with branded coloring. I also used canva to create relevant and custom imagery to match the projects to be featured on this page.
-![APortfolio](/screenshots/Portfolio.png)
+![Portfolio](/screenshots/Portfolio.png)
 
 ## Contact
 I used a bootstrap form to create the contact page, customizing it to match the reference photo.
+![ContactForm](/screenshots/contact-form.png)
+
+## Sticky Footer
+I included a sticky footer with branded coloring as a bonus!
+![StickyFooter](/screenshots/stickyfooter.png)
 
 If you like what you see here, contact Aiden Threadgoode via email at aiden.threadgoode@gmail.com
