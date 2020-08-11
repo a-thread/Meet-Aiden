@@ -10,7 +10,7 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
     <!-- Local CSS -->
@@ -52,47 +52,49 @@
     <!-- End Header -->
 
     <!-- Contact Form -->
-    <div class="main-content rounded container" style="max-width: 40rem;">
-        <main class="contact row rounded align-items-center m-4">
-            <article class="col-12 pt-2">
+    <div class="container">
+        <div class="main-content rounded container" style="max-width: 40rem;">
+            <main class="contact row rounded align-items-center m-4">
+                <article class="col-12 pt-2">
 
-                <!-- Header -->
-                <h2 class="text-center">
-                    Contact
-                </h2>
-                <hr />
-                <div class="col-md-12 justify-content-center">
-                    <form id="contact-form" name="contact-form" action="mailto:aiden.threadgoode@gmail.com"
-                        method="post" enctype="text/plain">
+                    <!-- Header -->
+                    <h2 class="text-center">
+                        Contact
+                    </h2>
+                    <hr />
+                    <div class="col-md-12 justify-content-center">
+                        <form id="contact-form" name="contact-form" action="mailto:aiden.threadgoode@gmail.com"
+                            method="post" enctype="text/plain">
 
-                        <!-- Name -->
-                        <form class="md-form mb-2"><label for="name" class="">Name</label>
-                            <input type="text" id="name" name="name" class="form-control">
+                            <!-- Name -->
+                            <form class="md-form mb-2"><label for="name">Name:</label>
+                                <input type="text" id="name" name="name" class="form-control">
+                            </form>
+
+                            <!-- Email -->
+                            <form class="md-form mb-2"><label for="email">Email:</label>
+                                <input type="text" id="email" name="email" class="form-control">
+                            </form>
+
+                            <!-- Subject -->
+                            <form class="md-form mb-2"><label for="subject">Subject:</label>
+                                <input type="text" id="subject" name="subject" class="form-control">
+                            </form>
+
+                            <!-- Message -->
+                            <form class="md-form mb-2"><label for="message">Message</label>
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                            </form>
+
+                            <!-- Button -->
+                            <button type="submit" class="btn btn-primary text-white mb-4" value="Send">Submit</button>
+                            <div class="status"></div>
                         </form>
-
-                        <!-- Email -->
-                        <form class="md-form mb-2"><label for="email" class="">Email</label>
-                            <input type="text" id="email" name="email" class="form-control">
-                        </form>
-
-                        <!-- Subject -->
-                        <form class="md-form mb-2"><label for="subject" class="">Subject</label>
-                            <input type="text" id="subject" name="subject" class="form-control">
-                        </form>
-
-                        <!-- Message -->
-                        <form class="md-form mb-2"><label for="message">Message</label>
-                            <textarea type="text" id="message" name="message" rows="2"
-                                class="form-control md-textarea"></textarea>
-                        </form>
-
-                        <!-- Button -->
-                        <button type="submit" class="btn btn-primary text-white mb-4" value="Send">Submit</button>
-                        <div class="status"></div>
-                    </form>
-                </div>
-            </article>
-        </main>
+                    </div>
+                </article>
+            </main>
+        </div>
     </div>
     <!-- End form -->
 

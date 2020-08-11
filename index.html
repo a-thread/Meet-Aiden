@@ -2,28 +2,30 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
 
     <!-- Local CSS -->
-    <link href="style.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
     <title>Aiden Threadgoode</title>
 </head>
 
 <body>
-
     <!-- Header -->
     <div class="container-fluid w-auto">
         <header class="row">
-
             <!-- Logo -->
             <div class="nav-logo col-md-6 pt-2">
                 <h1 class="text-white text-center">Aiden Threadgoode</h1>
@@ -34,9 +36,9 @@
                 <nav class="col-md pt-1">
                     <ul class="nav justify-content-center justify-content-md-end">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="index.html">About</a>
+                            <a class="nav-link text-dark" href="index.html">Bio</a>
                         </li>
-                        <li class="nav-item ">
+                        <li class="nav-item">
                             <a class="nav-link" href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-item">
@@ -46,60 +48,60 @@
                 </nav>
             </div>
             <!-- End Nav -->
-
         </header>
     </div>
     <!-- End Header -->
 
     <!-- Main Content -->
-    <div class="main-content container align-items-center rounded">
-        <main class="row m-4">
-            <div class="row">
-
-                <!-- Headshot Image -->
-                <media class="headshot-image col-md-5 pt-2">
-                    <div>
-                        <img src="./images/Aiden.jpg" class="rounded mx-auto d-block" alt="Headshot of Aiden">
-                    </div>
-                </media>
-
-                <article class="col-md-7 pt-2 mb-3">
-
-                    <!-- About Me -->
-                    <div class="about-me container">
-                        <h2 class="text-center">
-                            About Me
-                        </h2>
-
-                        <hr />
-                        <!-- Bio -->
-                        <div class="bio row">
-                            <p class="bio-p text-dark text-align-left">
-                                I currently serve on the board of Maine Transgender Network, a peer support network for
-                                transgender residents of Maine. In my role as Chair of the Communications and
-                                Development
-                                Committee, I am responsible for the development of our branded imagery, management of
-                                our
-                                communications calendar, and maintainance of our websites. After working in development
-                                and
-                                communications for
-                                several nonprofits, I am excited to branch away from marketing and social media in my
-                                studies as
-                                a Full
-                                Stack Developer. With a Bachelors in Studio Art, I have a keen eye for design and look
-                                foward to
-                                utlizing my
-                                creative skills in my work as a Full Stack Developer.
-                            </p>
+    <div class="container">
+        <div class="main-content container align-items-center rounded">
+            <main class="row m-4">
+                <div class="row">
+                    <!-- Headshot Image -->
+                    <media class="headshot-image col-md-5 pt-2">
+                        <div>
+                            <img src="./images/Aiden.jpg" class="rounded mx-auto d-block" alt="Headshot of Aiden" />
                         </div>
-                        <!-- End Bio -->
+                        <div class="row btnsRow">
+                            <a type="button" class="btn github" href="https://github.com/a-thread"><i
+                                    class="fab fa-github"></i> GitHub</a>
+                            <a type="button" class="btn linkedIn"
+                                href="https://www.linkedin.com/in/aiden-threadgoode"><i
+                                    class="fab fa-linkedin-in"></i>LinkedIn</a>
+                        </div>
+                    </media>
 
-                    </div>
-                </article>
-                <!-- End About Me -->
-                
-            </div>
-        </main>
+                    <article class="col-md-7 pt-2 mb-3">
+                        <!-- About Me -->
+                        <div class="about-me container">
+                            <h2 class="text-center">
+                                About Me
+                            </h2>
+
+                            <hr />
+                            <!-- Bio -->
+                            <div class="bio row">
+                                <p class="bio">
+                                    I currently serve on the board of Maine Transgender Network, a
+                                    peer support network for transgender residents of Maine. In my
+                                    role as Chair of the Communications and Development Committee,
+                                    I am responsible for the development of our branded imagery,
+                                    management of our communications calendar, and maintainance of
+                                    our websites. After working in development and communications,
+                                    I am excited to branch away from marketing and social media in
+                                    my studies as a Full Stack Developer. With a Bachelors in
+                                    Studio Art, I have a keen eye for design and look foward to
+                                    utilizing my creative skills in my work as a Full Stack
+                                    Developer.
+                                </p>
+                            </div>
+                            <!-- End Bio -->
+                        </div>
+                    </article>
+                    <!-- End About Me -->
+                </div>
+            </main>
+        </div>
     </div>
 
     <!-- Sticky Footer -->

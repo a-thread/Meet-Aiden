@@ -3,8 +3,14 @@ body {
 }
 
 /* Cutom Font Stylings */
-h1, h2, h3, h5, ul, p {
-    font-family: 'Noto Sans JP', sans-serif;
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+li.nav-item {
+    font-weight: 600;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 h1 {
@@ -18,6 +24,10 @@ h2 {
 
 h3 {
     font-weight: 500;
+}
+
+form {
+    font-weight: 600;
 }
 
 /* Branded Coloring for Nav */
@@ -43,6 +53,23 @@ h3 {
     align-items: center;
 }
 
+/* About me Buttons */
+a.github, a.linkedIn {
+    background-color: #2D89BC;
+    margin: 1rem;
+    color: #ffffff;
+    min-width: 5rem;
+    font-size: large;
+}
+
+i {
+    margin-right: 10px;
+}
+
+div.btnsRow {
+    justify-content: center;
+}
+
 /* About Me width */
 .about-me {
     max-width: 35rem;
@@ -51,11 +78,6 @@ h3 {
 /* Bio width and spacing */
 .bio {
     max-width: 35rem;
-}
-
-.bio-p {
-    margin-right: 1.5rem; 
-    margin-left: 1.5rem;
 }
 
 /* Contact */
