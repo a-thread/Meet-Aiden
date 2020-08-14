@@ -60,7 +60,7 @@ div.main-content {
 
 /* Spacing for Headshot Image */
 media.headshot-image {
-  margin-top: 1rem;
+  margin-top: 2rem;
   align-items: center;
 }
 
@@ -99,6 +99,16 @@ p.bio {
 main.contact {
   margin: 4rem;
   align-items: center;
+}
+
+button.submit {
+  color: white;
+  background-color: #ffa62b;
+}
+
+button.submit:hover {
+  color: black;
+  background-color: #82c0cc;
 }
 
 /* Portfolio */

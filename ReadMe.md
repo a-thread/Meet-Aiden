@@ -1,6 +1,6 @@
 # Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
 
-[My Responsive Portfolio](https://a-thread.github.io/Responsive-Portfolio-HW02-Aiden/)
+[My Responsive Portfolio](https://a-thread.github.io/Aiden-Threadgoode-Portfolio/)
 
 The assignment was to create a mobile responsive website containing an "About Me" page, a Portfolio section, and Contact Form. All headers had to match and there was a bonus for a sticky footer. 
 
