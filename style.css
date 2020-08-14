@@ -1,42 +1,76 @@
 /* Background Color and Font */
 body {
-  background-color: #DBE3E6;
-  font-family: "Quicksand", sans-serif;
+  background-color: #dbe3e6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+div.main-content {
+  margin-bottom: 4rem;
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
 }
 
 /* Nav & Footer */
-div.nav-logo {
-  background-color: #16697a;
+nav {
+  background-color: #555B6E;
+  font-family: "Ubuntu", sans-serif;
 }
 
-div.nav-header {
-  background-color: white;
+a.navbar-brand {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1rem;
 }
 
-li.nav-item {
-  font-weight: 600;
-  margin-top: 0;
-  padding-top: 0;
-}
-
-a.nav-link {
-  color: #489fb5;
-}
-
-a.nav-link:hover,
-a.current-page {
+button.navbar-toggler {
+  background-color: #89B0AE;
+  margin-left: 1rem;
   color: #ffa62b;
 }
 
+div.navbar-collapse {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+li.nav-item {
+  font-weight: 400;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 22px;
+  margin-right: 1rem;
+}
+
+a.nav-link {
+  color: #BEE3DB;
+}
+
+a.nav-link:hover {
+  color: #FFD6BA;
+}
+
 nav.footer {
-  background-color: #489fb5;
+  background-color: #89B0AE;
   height: 2.5rem;
+}
+
+/* Contact Me */
+ul.contact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style-type: none;
+  background-color: #89B0AE;
 }
 
 /* Headers */
 h1,
 h2 {
   font-weight: 700;
+  font-family: "Ubuntu", sans-serif;
 }
 
 h2 {
@@ -44,72 +78,25 @@ h2 {
 }
 
 h3 {
+  font-family: "Ubuntu", sans-serif;
   font-weight: 500;
 }
 
-form {
-  font-weight: 600;
-}
-
 /* About Me */
-div.main-content {
-  margin-bottom: 4rem;
-  max-width: 60rem;
-  background-color: #ffffff;
-}
-
-div.about-me {
-  max-width: 35rem;
-  padding-bottom: 0rem;
-  margin-bottom: 0rem;
-}
-
-/* Spacing for Headshot Image */
-media.headshot-image {
-  margin-top: 2rem;
+div.about-me-background {
+  width: 100%;
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  justify-content: center;
   align-items: center;
-  padding-bottom: 0em;
-  margin-bottom: 0em;
 }
-
-/* About Me title */
-h2.title {
-  text-align: center;
-}
-
 
 /* Bio width and spacing */
 p.bio {
+  font-family: 'Open Sans', sans-serif;
   max-width: 35rem;
 }
-
-/* Contact Buttons */
-div.contactRow {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-top: 0em;
-  margin-top: 0em;
-}
-
-h4.contact-title {
-  font-weight: 700;
-  margin-top: 1rem;
-}
-
-a.btn {
-  background-color: #ffa62b;
-  margin: 1rem;
-  color: #ffffff;
-  min-width: 5rem;
-  font-size: large;
-}
-
-a.btn:hover {
-  background-color: #82c0cc;
-}
-
 
 
 /* Portfolio */
@@ -126,11 +113,10 @@ div.media-blocks {
 media.portfolio-item {
   margin: 0;
   align-items: center;
-
 }
 
 h2.title {
-  text-align: center;
+  text-align: left;
   margin-top: 0.5rem;
 }
 div.card {
@@ -142,29 +128,33 @@ div.card {
 div.card-header {
   color: white;
   text-align: center;
-  background-color: #82c0cc;
+  background-color: #89B0AE;
   font-weight: 500;
   font-size: 20px;
 }
 
+div.btnsRow {
+  justify-content: center;
+}
+
 div.card-header:hover,
 a.site,
-a.gitrepo  {
-  background-color: #FFA62B;
+a.gitrepo {
+  background-color: #FFD6BA;
   color: black;
   font-weight: 400;
 }
 
-a.site, 
+a.site,
 a.gitrepo {
   margin-right: 10px;
   margin-left: 10px;
   width: 5rem;
 }
 
-a.link:hover,
+a.site:hover,
 a.gitrepo:hover {
-  background-color: #82c0cc;
+  background-color: #89B0AE;
   color: white;
 }
 
@@ -173,6 +163,10 @@ div.password {
 }
 
 @media (max-width: 600px) {
+  div.navbar-collapse {
+    justify-content: center;
+    text-align: center;
+  }
   media.headshot-image {
     padding-top: 1rem;
   }

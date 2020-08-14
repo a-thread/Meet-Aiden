@@ -10,8 +10,9 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
@@ -22,99 +23,82 @@
     <title>Aiden Threadgoode</title>
 </head>
 
-<body>
-    <!-- Header -->
-    <div class="container-fluid w-auto">
-        <header class="row">
-            <!-- Logo -->
-            <div class="nav-logo col-md-6 pt-2">
-                <h1 class="text-white text-center">Aiden Threadgoode</h1>
-            </div>
-
-            <!-- Navigation -->
-            <div class="nav-header col-md-6 pt-2 border-bottom border-light">
-                <nav class="col-md pt-1">
-                    <ul class="nav justify-content-center justify-content-md-end">
-                        <li class="nav-item">
-                            <a class="nav-link current-page" href="index.html">Bio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <!-- End Nav -->
-        </header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand col-md-5">
+        <h1 class="logo">Aiden Threadgoode</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-hamburger"></i>
+        </button>
+    </a>
+    <div class="collapse navbar-collapse col-md-7" id="navbarToggler">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" data-target="#contact">Contact</a>
+            </li>
+        </ul>
     </div>
-    <!-- End Header -->
+</nav>
+<div class="contactRow collapse" id="contact">
+    <ul class="contact-list">
+        <li class="nav-item">
+            <a class="nav-link" href="https://github.com/a-thread">GitHub</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/aiden-threadgoode">LinkedIn</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="mailto:aiden.threadgoode@gmail.com">Email</a>
+        </li>
+    </ul>
+</div>
 
-    <!-- Main Content -->
-    <div class="container index">
-        <div class="main-content container align-items-center rounded">
-            <main class="row m-4">
-                <div class="row">
+<body>
+    <div class="about-me-background">
+        <!-- Main Content -->
+        <div class="container bio-container">
+            <div class="container align-items-center rounded">
+                <main class="row">
                     <!-- Headshot Image -->
-                    <media class="headshot-image col-md-5 pt-2">
-                        <img src="./images/Aiden.jpg" class="rounded mx-auto d-block" alt="Headshot of Aiden" />
+                    <media class="headshot-image col-md-5">
+                        <img src="./images/Aiden.jpg" class="rounded headshot" alt="Headshot of Aiden" />
                         <!-- Buttons -->
                     </media>
 
-                    <article class="col-md-7 pt-2 mb-3">
+                    <article class="col-md-7">
                         <!-- About Me -->
                         <div class="about-me container">
                             <h2 class="title">
-                                About Me
+                                Bio
                             </h2>
-
                             <hr />
                             <!-- Bio -->
-                            <div class="bio row">
-                                <p class="bio">
-                                    I currently serve on the board of Maine Transgender Network, a
-                                    peer support network for transgender residents of Maine. In my
-                                    role as Chair of the Communications and Development Committee,
-                                    I am responsible for the development of our branded imagery,
-                                    management of our communications calendar, and maintainance of
-                                    our websites. After working in development and communications,
-                                    I am excited to branch away from marketing and social media in
-                                    my studies as a Full Stack Developer. With a Bachelors in
-                                    Studio Art, I have a keen eye for design and look foward to
-                                    utilizing my creative skills in my work as a Full Stack
-                                    Developer.
+                            <div class="bio">
+                                <p>
+                                    Full stack web developer with graphic design background educated at University of
+                                    Southern Maine. Recently earned a certificate in full stack development from
+                                    University
+                                    of New Hampshire in JavaScript, Jquery, CSS, and responsive web design.
+                                    <br />
+                                    <br />
+                                    With a background in peer support and social justice, I am passionate about
+                                    accessibility and approach programming challenges from fresh perspectives to create
+                                    collaborative and meaningful web applications.
+
                                 </p>
                             </div>
                             <!-- End Bio -->
                         </div>
                     </article>
                     <!-- End About Me -->
-                </div>
-            </main>
-            <div class="contactRow" id="contact">
-                <h4 class="contact-title col-s-12 col-md-3">Contact Me:</h4>
-                <div class="col-s-12 col-md-9">
-                    <a type="button" class="btn github" href="https://github.com/a-thread"><i class="fab fa-github"></i>
-                        GitHub</a>
-                    <a type="button" class="btn linkedIn" href="https://www.linkedin.com/in/aiden-threadgoode"><i
-                            class="fab fa-linkedin-in"></i>
-                        LinkedIn</a>
-                    <a type="button" class="btn email" href="mailto:aiden.threadgoode@gmail.com"><i
-                            class="fas fa-at"></i> Email</a>
-                    <a type="button" class="btn phone" data-toggle="collapse" href="#phoneNumber" role="button"
-                        aria-expanded="false" aria-controls="phoneNumber"><i class="fas fa-phone"></i> Phone</a>
-                </div>
-                <div class="collapse card-body" id="phoneNumber">
-                    <strong>(207) 749-1341</strong>
-                </div>
+                </main>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="main-content container rounded" id="portfolio">
+    <div class="container" id="portfolio">
+        <div class="container main-content rounded">
             <main class="m-4">
 
                 <!-- Header -->
@@ -135,21 +119,23 @@
                                 aria-expanded="false" aria-controls="petFinderButtons">
                                 Adults Only Pet Finder
                             </div>
+                            <!-- tech used -->
+                            <div class="card-body">
+                                <strong>Tech Used:</strong> HTML, CSS, Material, animate.css, JavaScript, jQuery,
+                                scrollreveal.js,
+                                random picture APIs
+                            </div>
                             <!-- Card w/ Description & Buttons -->
                             <div class="card-body collapse" id="petFinder">
-                                <div class="row card-body">
-                                    <p class="description"><strong>Adults Only Pet Finder</strong> is a humurous
-                                        application that
-                                        allows users to specify what they are looking for in a pet and receive a
-                                        "match" with a comedic description. </p>
-                                </div>
+                                <p class="description"><strong>Adults Only Pet Finder</strong> is a humurous
+                                    application that
+                                    allows users to specify what they are looking for in a pet and receive a
+                                    "match" with a comedic description. </p>
                                 <div class="row btnsRow">
-                                    <a type="button" class="btn gitrepo"
-                                        href="https://hilbug.github.io/adults-pet-finder/"><i
-                                            class="fas fa-link"></i></a>
                                     <a type="button" class="btn site"
-                                        href="https://github.com/hilbug/adults-pet-finder"><i
-                                            class="fab fa-github"></i></a>
+                                        href="https://hilbug.github.io/adults-pet-finder/">App</a>
+                                    <a type="button" class="btn gitrepo"
+                                        href="https://github.com/hilbug/adults-pet-finder">Code</a>
                                 </div>
                             </div>
                         </div>
@@ -165,21 +151,22 @@
                                 aria-expanded="false" aria-controls="weatherDashButtons">
                                 weatherDash
                             </div>
+                            <!-- tech used -->
+                            <div class="card-body">
+                                <strong>Tech Used:</strong> HTML, CSS, Material, JavaScript, jQuery, Moment,
+                                OpenWeatherApi, Canva
+                            </div>
                             <!-- Card w/ Description & Buttons -->
                             <div class="card-body collapse" id="weatherDash">
-                                <div class="row card-body">
-                                    <p class="description"> <strong>weatherDash</strong> is a Weather App that
-                                        displays current
-                                        weather data as well as a five day forecast for any location your heart
-                                        desires!</p>
-                                </div>
+                                <p class="description"> <strong>weatherDash</strong> is a Weather App that
+                                    displays current
+                                    weather data as well as a five day forecast for any location your heart
+                                    desires!</p>
                                 <div class="row btnsRow">
-                                    <a type="button" class="btn gitrepo"
-                                        href="https://a-thread.github.io/Weather-API-Aiden/"><i
-                                            class="fas fa-link"></i></a>
                                     <a type="button" class="btn site"
-                                        href="https://github.com/a-thread/Weather-API-Aiden"><i
-                                            class="fab fa-github"></i></a>
+                                        href="https://a-thread.github.io/Weather-API-Aiden/">App</a>
+                                    <a type="button" class="btn gitrepo"
+                                        href="https://github.com/a-thread/Weather-API-Aiden">Code</a>
                                 </div>
                             </div>
                         </div>
@@ -195,21 +182,21 @@
                                 aria-expanded="false" aria-controls="dailyButtons">
                                 Work Day Scheduler
                             </div>
+                            <!-- tech used -->
+                            <div class="card-body">
+                                <strong>Tech Used:</strong> HTML, CSS, JavaScript, jQuery, Moment, Coolers
+                            </div>
                             <!-- Card w/ Description & Buttons -->
                             <div class="card-body collapse" id="scheduler">
-                                <div class="row card-body">
-                                    <p class="description"><strong>Work Day Scheduler</strong> is a simple calendar
-                                        application that allows the user to save events for each hour of the
-                                        day. This app will run in the browser and feature dynamically updated
-                                        HTML and CSS powered by jQuery.</p>
-                                </div>
+                                <p class="description"><strong>Work Day Scheduler</strong> is a simple calendar
+                                    application that allows the user to save events for each hour of the
+                                    day. This app will run in the browser and feature dynamically updated
+                                    HTML and CSS powered by jQuery.</p>
                                 <div class="row btnsRow">
-                                    <a type="button" class="btn gitrepo"
-                                        href="https://a-thread.github.io/Daily-Scheduler/"><i
-                                            class="fas fa-link"></i></a>
                                     <a type="button" class="btn site"
-                                        href="https://github.com/a-thread/Daily-Scheduler"><i
-                                            class="fab fa-github"></i></a>
+                                        href="https://a-thread.github.io/Daily-Scheduler/">App</a>
+                                    <a type="button" class="btn gitrepo"
+                                        href="https://github.com/a-thread/Daily-Scheduler">Code</a>
                                 </div>
                             </div>
 
@@ -226,20 +213,22 @@
                                 aria-expanded="false" aria-controls="weatherDashButtons">
                                 Code Quiz!
                             </div>
+                            <!-- tech used -->
+                            <div class="card-body">
+                                <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, Moment
+                            </div>
                             <!-- Card w/ Description & buttons -->
                             <div class="card-body collapse" id="codeQuiz">
                                 <div class="row card-body">
                                     <p class="description">This is a timed multiple choice coding quiz that is
-                                        responsive to multiple screen sizes and has a clean interface..</p>
+                                        responsive to multiple screen sizes and has a clean interface.</p>
                                 </div>
 
                                 <div class="row btnsRow">
                                     <a type="button" class="btn site"
-                                        href="https://a-thread.github.io/Timed-Code-Quiz/"><i
-                                            class="fas fa-link"></i></a>
+                                        href="https://a-thread.github.io/Timed-Code-Quiz/">App</a>
                                     <a type="button" class="btn gitrepo"
-                                        href="https://github.com/a-thread/Timed-Code-Quiz"><i
-                                            class="fab fa-github"></i></a>
+                                        href="https://github.com/a-thread/Timed-Code-Quiz">Code</a>
                                 </div>
                             </div>
                         </div>
@@ -255,6 +244,10 @@
                                 aria-expanded="false" aria-controls="passwordAppButtons">
                                 Random Password Generator
                             </div>
+                            <!-- tech used -->
+                            <div class="card-body">
+                                <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, Moment
+                            </div>
                             <!-- Card w/ Description & Buttons -->
                             <div class="card-body collapse" id="password">
                                 <div class="row card-body">
@@ -263,12 +256,10 @@
                                         criteria.</p>
                                 </div>
                                 <div class="row btnsRow">
-                                    <a type="button" class="btn gitrepo"
-                                        href="https://a-thread.github.io/Personal-Password-Generator/"><i
-                                            class="fas fa-link"></i></a>
                                     <a type="button" class="btn site"
-                                        href="https://github.com/a-thread/Personal-Password-Generator"><i
-                                            class="fab fa-github"></i></a>
+                                        href="https://a-thread.github.io/Personal-Password-Generator/">App</a>
+                                    <a type="button" class="btn gitrepo"
+                                        href="https://github.com/a-thread/Personal-Password-Generator">Code</a>
                                 </div>
                             </div>
 
