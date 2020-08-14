@@ -1,7 +1,7 @@
 /* Background Color and Font */
 body {
   background-color: #dbe3e6;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 div.main-content {
@@ -12,7 +12,7 @@ div.main-content {
 
 /* Nav & Footer */
 nav {
-  background-color: #555B6E;
+  background-color: #555b6e;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -24,36 +24,25 @@ a.navbar-brand {
   margin-top: 1rem;
 }
 
-button.navbar-toggler {
-  background-color: #89B0AE;
-  margin-left: 1rem;
-  color: #ffa62b;
-}
-
-div.navbar-collapse {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-li.nav-item {
+li.nav-item, a.nav-link {
   font-weight: 400;
   margin-top: 0;
   padding-top: 0;
   font-size: 22px;
   margin-right: 1rem;
+  text-align: right;
 }
 
 a.nav-link {
-  color: #BEE3DB;
+  color: #bee3db;
 }
 
 a.nav-link:hover {
-  color: #FFD6BA;
+  color: #ffd6ba;
 }
 
 nav.footer {
-  background-color: #89B0AE;
+  background-color: #89b0ae;
   height: 2.5rem;
 }
 
@@ -63,7 +52,7 @@ ul.contact-list {
   flex-direction: column;
   align-items: flex-end;
   list-style-type: none;
-  background-color: #89B0AE;
+  background-color: #89b0ae;
 }
 
 /* Headers */
@@ -86,18 +75,19 @@ h3 {
 div.about-me-background {
   width: 100%;
   background-color: white;
-  padding-top: 1rem;
-  padding-bottom: 2rem;
-  justify-content: center;
-  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 5rem;
 }
 
 /* Bio width and spacing */
-p.bio {
-  font-family: 'Open Sans', sans-serif;
-  max-width: 35rem;
+.headshot-image {
+  text-align: center;
 }
 
+p.bio {
+  font-family: "Open Sans", sans-serif;
+  max-width: 35rem;
+}
 
 /* Portfolio */
 div.portfolio {
@@ -110,7 +100,7 @@ div.media-blocks {
   justify-content: space-evenly;
 }
 
-media.portfolio-item {
+.portfolio-item {
   margin: 0;
   align-items: center;
 }
@@ -119,6 +109,7 @@ h2.title {
   text-align: left;
   margin-top: 0.5rem;
 }
+
 div.card {
   margin: 1rem auto;
   position: relative;
@@ -126,11 +117,12 @@ div.card {
 }
 
 div.card-header {
+  font-family: "Ubuntu", sans-serif;
   color: white;
   text-align: center;
-  background-color: #89B0AE;
+  background-color: #89b0ae;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 div.btnsRow {
@@ -140,7 +132,7 @@ div.btnsRow {
 div.card-header:hover,
 a.site,
 a.gitrepo {
-  background-color: #FFD6BA;
+  background-color: #ffd6ba;
   color: black;
   font-weight: 400;
 }
@@ -154,7 +146,7 @@ a.gitrepo {
 
 a.site:hover,
 a.gitrepo:hover {
-  background-color: #89B0AE;
+  background-color: #89b0ae;
   color: white;
 }
 
@@ -163,12 +155,19 @@ div.password {
 }
 
 @media (max-width: 600px) {
-  div.navbar-collapse {
+  .navbar,
+  ul.contact-list {
     justify-content: center;
     text-align: center;
+    align-items: center;
+    margin: 0rem;
+    padding: 0rem;
   }
-  media.headshot-image {
-    padding-top: 1rem;
+  .headshot-image {
+    padding-top: 0rem;
+  }
+  h2.title {
+    text-align: center;
   }
   #container {
     width: fit-content;
