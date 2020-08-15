@@ -4,20 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-
     <!-- Google Fonts -->
     <link
         href="https://fonts.googleapis.com/css2?family=Damion&family=Marck+Script&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
-
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
-
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <!-- Local CSS -->
     <link href="./assets/style.css" rel="stylesheet" />
     <title>Meet Aiden Threadgoode</title>
@@ -55,7 +53,7 @@
                     <!-- Github -->
                     <a class="dropdown-item" href="https://github.com/a-thread">GitHub</a>
                     <!-- LinkedIn -->
-                    <a class="dropdown-item" href="https://www.linkedin.com/in/aiden-threadgoode">LinkedIn</a>
+                    <a class="dropdown-item" href="https://www.linkedin.com/in/a-thread">LinkedIn</a>
                     <!-- Email -->
                     <a class="dropdown-item" href="mailto:aiden.threadgoode@gmail.com">Email</a>
                 </div>
@@ -75,9 +73,9 @@
             <img src="./assets/images/profile-photo.png" class="headshot-round" alt="Headshot of Aiden" />
         </media>
         <!-- Name -->
-        <h1>meet Aiden</h1>
+        <h1 class="animate__animated animate__backInLeft">meet Aiden</h1>
         <!-- Descriptor -->
-        <h3>Full Stack Web Developer & Graphic Designer</h3>
+        <h3 Class="animate__animated animate__backInRight animate__delay-1s">Full Stack Web Developer & Graphic Designer</h3>
     </div>
 
     <!-- About Me Section -->
@@ -90,7 +88,7 @@
                 </h2>
                 <article class="col-md-8">
                     <!-- Bio -->
-                    <p>
+                    <p class="bio-content">
                         Full stack web developer with graphic design background educated at University of
                         Southern Maine. Recently earned a certificate in full stack development from
                         University
@@ -120,7 +118,7 @@
 
     <!-- Portfolio Section -->
     <div class="container" id="portfolio">
-        <main>
+        <main class="portfolio-main">
 
             <!-- Header -->
             <h2 class="title">
@@ -294,16 +292,16 @@
         </div>
     </nav>
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap Js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Local Script -->
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>
