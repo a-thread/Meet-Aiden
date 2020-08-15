@@ -146,21 +146,16 @@ div.portfolio {
     max-width: fit-content;
 }
 
-div.media-blocks {
+div.card-deck {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.portfolio-item {
-    margin: 0;
-    align-items: center;
-}
-
 div.card {
     margin: 1rem auto;
     position: relative;
-    max-width: 19rem;
+    min-width: 19rem;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
 }
 

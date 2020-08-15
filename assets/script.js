@@ -7,18 +7,18 @@ $(document).ready(function () {
   };
 
   // headshot scroll reveal
-  ScrollReveal().reveal(".headshot-round", {
+  ScrollReveal().reveal("img.headshot-round", {
     delay: 1000,
     reset: false,
   });
 
   // bio scroll reveal
-  ScrollReveal().reveal(".bio-container", {
+  ScrollReveal().reveal("div.bio-container", {
     viewFactor: 1.0,
   });
 
   // porfolio scroll reveal
-  ScrollReveal().reveal("main.portfolio-main", {
+  ScrollReveal().reveal("div.card", {
     viewFactor: 0.25,
     reset: true,
   });
