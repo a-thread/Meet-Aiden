@@ -1,241 +1,238 @@
 /* Background Color and Font */
+
 body {
-  background-color: #dbe3e6;
-  font-family: "Open Sans", sans-serif;
+    background-color: #dbe3e6;
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Nav & Footer */
+
 nav {
-  background-color: black;
-  font-family: "Ubuntu", sans-serif;
-  max-height: fit-content;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-a.logo-hamburger,
-div.navLinks {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  justify-content: left;
-}
-
-h2.logo:hover {
-  color: white;
-}
-
-a.logo-hamburger {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-}
-
-div.navLinks {
-  justify-content: flex-end;
-}
-
-li.nav-item,
-a.nav-link {
-  font-weight: 400;
-  margin-top: 0;
-  padding-top: 0;
-  font-size: 22px;
-  margin-right: 1rem;
-  text-align: right;
-}
-
-a.nav-link {
-  color: #bee3db;
-}
-
-a.nav-link:hover {
-  color: #ffd6ba;
-}
-
-div.dropdown-menu {
-  background-color: #89b0ae;
-}
-a.dropdown-item:hover {
-  background-color: #ffd6ba;
-}
-
-nav.footer {
-  background-color: #89b0ae;
-  height: 2.5rem;
-}
-
-/* Contact Me */
-ul.contact-list {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  list-style-type: none;
-  color: white;
-}
-
-/* Headers */
-h2 {
-  font-weight: 700;
-  font-family: "Ubuntu", sans-serif;
-}
-
-h3 {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 500;
-}
-
-/* Intro Section */
-div.intro-background {
-  background-color: #bee3db;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-}
-
-.headshot-round {
-  margin-top: 3rem;
-  margin-bottom: 1rem;
-  padding: 0;
-}
-
-h1 {
-  color: black;
-  font-family: "Marck Script", cursive;
-  font-weight: 500;
-  margin-bottom: 1rem;
-}
-
-h3 {
-  font-family: "Ubuntu", sans-serif;
-  margin-bottom: 4rem;
-}
-
-/* About Me */
-div.about-me-background {
-  width: 100%;
-  background-color: #faf9f9;
-  padding-top: 4rem;
-  padding-bottom: 5rem;
-}
-
-/* Bio width and spacing */
-.headshot-round {
-  margin-top: 7rem;
-  text-align: center;
-}
-
-p.bio {
-  font-family: "Open Sans", sans-serif;
-  max-width: 35rem;
-}
-
-/* Portfolio */
-#portfolio {
-  margin-top: 3rem;
-  margin-bottom: 4rem;
-}
-
-div.portfolio {
-  max-width: fit-content;
-}
-
-div.media-blocks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.portfolio-item {
-  margin: 0;
-  align-items: center;
-}
-
-div.card {
-  margin: 1rem auto;
-  position: relative;
-  max-width: 19rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-}
-
-div.card-header {
-  font-family: "Ubuntu", sans-serif;
-  color: white;
-  text-align: center;
-  background-color: #89b0ae;
-  font-weight: 500;
-  font-size: 22px;
-}
-
-div.btnsRow {
-  justify-content: center;
-}
-
-div.card-header:hover,
-a.site,
-a.gitrepo {
-  background-color: #ffd6ba;
-  color: black;
-  font-weight: 400;
-}
-
-a.site,
-a.gitrepo {
-  margin-right: 10px;
-  margin-left: 10px;
-  width: 5rem;
-}
-
-a.site:hover,
-a.gitrepo:hover {
-  background-color: #89b0ae;
-  color: white;
-}
-
-div.password {
-  margin-bottom: 3rem;
-}
-
-@media (max-width: 800px) {
-  body {
+    background-color: black;
+    font-family: "Ubuntu", sans-serif;
+    max-height: fit-content;
+    display: flex;
+    flex-direction: column;
     width: 100%;
-  }
-  /* spacing for nav */
-  a.logo-hamburger {
+}
+
+a.logo-hamburger, div.navLinks {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  /* sizing for nav */
-  li.nav-item,
-  a.nav-link {
-    font-size: 20px;
-  }
-  /* responsive sizing for headers */
-  h1 {
-    font-size: 11vw;
-  }
-  h2 {
-    font-size: 6vw;
-    text-align: center;
-  }
-  h3 {
-    font-size: 4vw;
-  }
-  h2.about-title {
-    text-align: center;
-    padding-bottom: 1rem;
-  }
-  /* resizing headshot */
-  .headshot-round {
-    width: 20rem;
-    margin-top: 6rem;
-  }
+}
 
-  #container {
-    width: fit-content;
-  }
+}
+
+h2.logo {
+    color: white;
+}
+
+div.navLinks {
+    justify-content: flex-end;
+}
+
+li.nav-item, a.nav-link {
+    font-weight: 400;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 22px;
+    margin-right: 1rem;
+    text-align: right;
+}
+
+a.nav-link {
+    color: #bee3db;
+}
+
+a.nav-link:hover {
+    color: #ffd6ba;
+}
+
+div.dropdown-menu {
+    background-color: #89b0ae;
+}
+
+a.dropdown-item:hover {
+    background-color: #ffd6ba;
+}
+
+nav.footer {
+    background-color: #89b0ae;
+    height: 2.5rem;
+}
+
+/* Contact Me */
+
+ul.contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style-type: none;
+    color: white;
+}
+
+/* Headers */
+
+h2 {
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+}
+
+h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+}
+
+/* Intro Section */
+
+div.intro-background {
+    background-color: #bee3db;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.headshot-round {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+    font-family: "Marck Script", cursive;
+    font-weight: 500;
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-family: "Ubuntu", sans-serif;
+    margin-bottom: 4rem;
+}
+
+/* About Me */
+
+div.about-me-background {
+    width: 100%;
+    background-color: #faf9f9;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+/* Bio width and spacing */
+
+.headshot-round {
+    margin-top: 7rem;
+    text-align: center;
+}
+
+p.bio {
+    font-family: "Open Sans", sans-serif;
+    max-width: 35rem;
+}
+
+/* Portfolio */
+
+#portfolio {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+div.portfolio {
+    max-width: fit-content;
+}
+
+div.media-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.portfolio-item {
+    margin: 0;
+    align-items: center;
+}
+
+div.card {
+    margin: 1rem auto;
+    position: relative;
+    max-width: 19rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+}
+
+div.card-header {
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    text-align: center;
+    background-color: #89b0ae;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+div.btnsRow {
+    justify-content: center;
+}
+
+div.card-header:hover, a.site, a.gitrepo {
+    background-color: #ffd6ba;
+    color: black;
+    font-weight: 400;
+}
+
+a.site, a.gitrepo {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 5rem;
+}
+
+a.site:hover, a.gitrepo:hover {
+    background-color: #89b0ae;
+    color: white;
+}
+
+div.password {
+    margin-bottom: 3rem;
+}
+
+@media (max-width: 800px) {
+    body {
+        width: 100%;
+    }
+    /* spacing for nav */
+    a.logo-hamburger {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /* sizing for nav */
+    li.nav-item, a.nav-link {
+        font-size: 20px;
+    }
+    /* responsive sizing for headers */
+    h1 {
+        font-size: 11vw;
+    }
+    h2 {
+        font-size: 6vw;
+        text-align: center;
+    }
+    h3 {
+        font-size: 4vw;
+    }
+    h2.about-title {
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    /* resizing headshot */
+    .headshot-round {
+        width: 20rem;
+        margin-top: 6rem;
+    }
+    #container {
+        width: fit-content;
+    }
 }
