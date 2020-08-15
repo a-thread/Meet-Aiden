@@ -1,4 +1,5 @@
 # Aiden Threadgoode: Portfolio
+![license](https://img.shields.io/github/license/a-thread/Aiden-Threadgoode-Portfolio)
 
 [My Responsive Portfolio](https://a-thread.github.io/Aiden-Threadgoode-Portfolio/)
 
