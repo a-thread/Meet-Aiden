@@ -1,27 +1,38 @@
-# Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+# Aiden Threadgoode: Portfolio
 
 [My Responsive Portfolio](https://a-thread.github.io/Aiden-Threadgoode-Portfolio/)
 
-The assignment was to create a mobile responsive website containing an "About Me" page, a Portfolio section, and Contact Form. All headers had to match and there was a bonus for a sticky footer. 
+## Description
+This is a portfolio containing contact information, project examples, as well as a short bio. It is a mobile-first design featuring custom stylings and was a ton of fun to make!
 
-## About Me
+### Technologies Used
+- Bootstrap
+- jQuery
+- CSS
+- Font Awesome
+- Google Fonts
+- Coolors
+- Canva
 
-I used a bootstrap navbar to make the logo and navigation. I customized it with Google Fonts and custom color to create a basic but branded look.
+## Personalized Stylings
+I used Canva to create a personalized headshot to add a simple but elegant touch to the layout. Through Coolors, I was able to put together a unique and eye-catching color scheme to tie the whole site together
 
-Columns and rows were used to create a responsive layout for the "About Me" section. I used separate columns for the bio and image to optimize responsiveness and create a clean layout.
-![About Me](/screenshots/AboutMe.png)
+![About Me](./assets/images/AboutMe.png)
 
-## Portfolio
+### Nav
+I used a responsive nav to make sure that this site would be mobile first.
 
-Bootstrap Cards were used to create the portfolio imagery. I used additional CSS to overlay the text and filled in the background with branded coloring. I also used canva to create relevant and custom imagery to match the projects to be featured on this page.
-![Portfolio](/screenshots/Portfolio.png)
+![Responsive Navigation](./assets/images/responsive.gif)
 
-## Contact
-I used a bootstrap form to create the contact page, customizing it to match the reference photo.
-![ContactForm](/screenshots/contact-form.png)
+### Contact
+I used a dropdown nav item to link to my Github, LinkedIn and Email
 
-## Sticky Footer
-I included a sticky footer with branded coloring as a bonus!
-![StickyFooter](/screenshots/stickyfooter.png)
+![Contact Dropdown](./assets/images/contact.gif)
 
-If you like what you see here, contact Aiden Threadgoode via email at aiden.threadgoode@gmail.com
+### Portfolio
+In this build I got to play around with Bootstrap a lot more. Here, I created collapsable cards for each portfolio item
+
+![Portfolio Demo](./assets/images/portfolio.gif)
+
+
+*If you like what you see here, contact [Aiden Threadgoode.](mailto:aiden.threadgoode@gmail.com)*
