@@ -19,66 +19,97 @@
         integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
 
     <!-- Local CSS -->
-    <link href="style.css" rel="stylesheet" />
-    <title>Aiden Threadgoode</title>
+    <link href="./assets/style.css" rel="stylesheet" />
+    <title>Meet Aiden Threadgoode</title>
 </head>
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand col-md-5">
-        <h1 class="logo">Aiden Threadgoode</h1>
+<nav class="nav navbar fixed-top navbar-expand-lg">
+    <!-- logo -->
+    <a class="col-md-4 col-sm-12 logo-hamburger">
+        <h2 class="logo">Aiden Threadgoode</h2>
+        <!-- Toggle Button -->
+        <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"
+            data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
     </a>
-    <div class="col-md-7">
-        <a class="nav-link" data-toggle="collapse" data-target="#contact">Contact</a>
+    <!-- Nav Items -->
+    <div class="collapse navbar-collapse col-md-8 navLinks" id="navbarToggler">
+        <ul class="navbar-nav">
+            <!-- Portfolio -->
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <!-- Bio -->
+            <li class="nav-item">
+                <a class="nav-link" href="#bio">About Me</a>
+            </li>
+            <!-- Contact -->
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" data-target="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <!-- End Nav -->
+    <!-- Contact Items -->
+    <div class="contactRow collapse" id="contact">
+        <ul class="contact-list">
+            <!-- Github -->
+            <li class="nav-item">
+                <a class="nav-link" href="https://github.com/a-thread">GitHub</a>
+            </li>
+            <!-- LinkedIn -->
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/aiden-threadgoode">LinkedIn</a>
+            </li>
+            <!-- Email -->
+            <li class="nav-item">
+                <a class="nav-link" href="mailto:aiden.threadgoode@gmail.com">Email</a>
+            </li>
+        </ul>
+        <!-- end Contact List -->
     </div>
 </nav>
-<div class="contactRow collapse" id="contact">
-    <ul class="contact-list">
-        <li class="nav-item">
-            <a class="nav-link" href="https://github.com/a-thread">GitHub</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="https://www.linkedin.com/in/aiden-threadgoode">LinkedIn</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="mailto:aiden.threadgoode@gmail.com">Email</a>
-        </li>
-    </ul>
-</div>
+
 
 <body>
-    <div class="about-me-background">
-        <!-- Main Content -->
+    <!-- Intro Section -->
+    <div class="intro-background">
+        <!-- Headshot Image -->
+        <media class="headshot-image mx-auto">
+            <img src="./images/profile-photo.png" class="headshot-round" alt="Headshot of Aiden" />
+        </media>
+        <!-- Name -->
+        <h1>Aiden Threadgoode</h1>
+        <!-- Descriptor -->
+        <h3>Full Stack Web Developer</h3>
+    </div>
+
+    <!-- About Me Section -->
+    <div class="about-me-background" id="bio">
         <div class="container bio-container">
             <main class="row">
-                <!-- Headshot Image -->
-                <media class="headshot-image col-md-5">
-                    <img src="./images/Aiden.jpg" class="rounded headshot" alt="Headshot of Aiden" />
-                    <!-- Buttons -->
-                </media>
-
-                <article class="col-md-7 about-me">
-                    <!-- About Me -->
-                    <h2 class="title">
-                        Bio
-                    </h2>
-                    <hr />
+                <!-- About Me Title-->
+                <h2 class="col-md-4 about-title">
+                    About Me
+                </h2>
+                <article class="col-md-8">
                     <!-- Bio -->
-                    <div class="bio">
-                        <p>
-                            Full stack web developer with graphic design background educated at University of
-                            Southern Maine. Recently earned a certificate in full stack development from
-                            University
-                            of New Hampshire in JavaScript, Jquery, CSS, and responsive web design.
-                            <br />
-                            <br />
-                            Coming from the nonprofit sector with a focus upon peer support and social justice, I am
-                            passionate about
-                            accessibility and approach programming challenges from fresh perspectives to create
-                            collaborative and meaningful web applications.
+                    <p>
+                        Full stack web developer with graphic design background educated at University of
+                        Southern Maine. Recently earned a certificate in full stack development from
+                        University
+                        of New Hampshire in JavaScript, Jquery, CSS, and responsive web design.
+                        <br />
+                        <br />
+                        Coming from the nonprofit sector with a focus upon peer support and social justice, I am
+                        passionate about
+                        accessibility and approach programming challenges from fresh perspectives to create
+                        collaborative and meaningful web applications.
 
-                        </p>
-                    </div>
+                    </p>
                     <!-- End Bio -->
                 </article>
                 <!-- End About Me -->
@@ -86,175 +117,174 @@
         </div>
     </div>
 
+    <!-- Portfolio Section -->
     <div class="container" id="portfolio">
-        <div class="container main-content rounded">
-            <main class="m-4">
+        <main>
 
-                <!-- Header -->
-                <h2 class="title">
-                    Portfolio
-                </h2>
+            <!-- Header -->
+            <h2 class="title">
+                Portfolio
+            </h2>
 
-                <hr />
-                <div class="media-blocks">
+            <hr />
+            <div class="media-blocks">
 
-                    <!-- Pet Finder Project -->
-                    <media class="portfolio-item">
-                        <div class="card">
-                            <!-- image -->
-                            <img class="card-img-top" src="./images/pet-finder.png" alt="Adults Only Pet Finder App">
-                            <!-- title -->
-                            <div class="card-header pet-finder" data-toggle="collapse" href="#petFinder" role="button"
-                                aria-expanded="false" aria-controls="petFinderButtons">
-                                Adults Only Pet Finder
-                            </div>
-                            <!-- tech used -->
-                            <div class="card-body">
-                                <strong>Tech Used:</strong> HTML, CSS, Material, animate.css, JavaScript, jQuery,
-                                scrollreveal.js,
-                                random picture APIs
-                            </div>
-                            <!-- Card w/ Description & Buttons -->
-                            <div class="card-body collapse" id="petFinder">
-                                <p class="description"><strong>Adults Only Pet Finder</strong> is a humurous
-                                    application that
-                                    allows users to specify what they are looking for in a pet and receive a
-                                    "match" with a comedic description. </p>
-                                <div class="row btnsRow">
-                                    <a type="button" class="btn site"
-                                        href="https://hilbug.github.io/adults-pet-finder/">App</a>
-                                    <a type="button" class="btn gitrepo"
-                                        href="https://github.com/hilbug/adults-pet-finder">Code</a>
-                                </div>
+                <!-- Pet Finder Project -->
+                <media class="portfolio-item">
+                    <div class="card">
+                        <!-- image -->
+                        <img class="card-img-top" src="./images/pet-finder.png" alt="Adults Only Pet Finder App">
+                        <!-- title -->
+                        <div class="card-header pet-finder" data-toggle="collapse" href="#petFinder" role="button"
+                            aria-expanded="false" aria-controls="petFinderButtons">
+                            Adults Only Pet Finder
+                        </div>
+                        <!-- tech used -->
+                        <div class="card-body">
+                            <strong>Tech Used:</strong> HTML, CSS, Material, animate.css, JavaScript, jQuery,
+                            scrollreveal.js,
+                            random picture APIs
+                        </div>
+                        <!-- Card w/ Description & Buttons -->
+                        <div class="card-body collapse" id="petFinder">
+                            <p class="description"><strong>Adults Only Pet Finder</strong> is a humurous
+                                application that
+                                allows users to specify what they are looking for in a pet and receive a
+                                "match" with a comedic description. </p>
+                            <div class="row btnsRow">
+                                <a type="button" class="btn site"
+                                    href="https://hilbug.github.io/adults-pet-finder/">App</a>
+                                <a type="button" class="btn gitrepo"
+                                    href="https://github.com/hilbug/adults-pet-finder">Code</a>
                             </div>
                         </div>
-                    </media>
+                    </div>
+                </media>
 
-                    <!-- Weather App -->
-                    <media class="portfolio-item">
-                        <div class="card">
-                            <!-- image -->
-                            <img class="card-img-top" src="./images/weatherDash.png" alt="Weather Dashboard App">
-                            <!-- title -->
-                            <div class="card-header pet-finder" data-toggle="collapse" href="#weatherDash" role="button"
-                                aria-expanded="false" aria-controls="weatherDashButtons">
-                                weatherDash
-                            </div>
-                            <!-- tech used -->
-                            <div class="card-body">
-                                <strong>Tech Used:</strong> HTML, CSS, Material, JavaScript, jQuery, Moment,
-                                OpenWeatherApi, Canva
-                            </div>
-                            <!-- Card w/ Description & Buttons -->
-                            <div class="card-body collapse" id="weatherDash">
-                                <p class="description"> <strong>weatherDash</strong> is a Weather App that
-                                    displays current
-                                    weather data as well as a five day forecast for any location your heart
-                                    desires!</p>
-                                <div class="row btnsRow">
-                                    <a type="button" class="btn site"
-                                        href="https://a-thread.github.io/Weather-API-Aiden/">App</a>
-                                    <a type="button" class="btn gitrepo"
-                                        href="https://github.com/a-thread/Weather-API-Aiden">Code</a>
-                                </div>
+                <!-- Weather App -->
+                <media class="portfolio-item">
+                    <div class="card">
+                        <!-- image -->
+                        <img class="card-img-top" src="./images/weatherDash.png" alt="Weather Dashboard App">
+                        <!-- title -->
+                        <div class="card-header pet-finder" data-toggle="collapse" href="#weatherDash" role="button"
+                            aria-expanded="false" aria-controls="weatherDashButtons">
+                            weatherDash
+                        </div>
+                        <!-- tech used -->
+                        <div class="card-body">
+                            <strong>Tech Used:</strong> HTML, CSS, Material, JavaScript, jQuery, Moment,
+                            OpenWeatherApi, Canva
+                        </div>
+                        <!-- Card w/ Description & Buttons -->
+                        <div class="card-body collapse" id="weatherDash">
+                            <p class="description"> <strong>weatherDash</strong> is a Weather App that
+                                displays current
+                                weather data as well as a five day forecast for any location your heart
+                                desires!</p>
+                            <div class="row btnsRow">
+                                <a type="button" class="btn site"
+                                    href="https://a-thread.github.io/Weather-API-Aiden/">App</a>
+                                <a type="button" class="btn gitrepo"
+                                    href="https://github.com/a-thread/Weather-API-Aiden">Code</a>
                             </div>
                         </div>
-                    </media>
+                    </div>
+                </media>
 
-                    <!-- Daily Work Scheduler -->
-                    <media class="portfolio-item">
-                        <div class="card">
-                            <!-- image -->
-                            <img class="card-img-top" src="./images/work-day.png" alt="work day scheduler app">
-                            <!-- title -->
-                            <div class="card-header pet-finder" data-toggle="collapse" href="#scheduler" role="button"
-                                aria-expanded="false" aria-controls="dailyButtons">
-                                Work Day Scheduler
-                            </div>
-                            <!-- tech used -->
-                            <div class="card-body">
-                                <strong>Tech Used:</strong> HTML, CSS, JavaScript, jQuery, Moment, Coolers
-                            </div>
-                            <!-- Card w/ Description & Buttons -->
-                            <div class="card-body collapse" id="scheduler">
-                                <p class="description"><strong>Work Day Scheduler</strong> is a simple calendar
-                                    application that allows the user to save events for each hour of the
-                                    day. This app will run in the browser and feature dynamically updated
-                                    HTML and CSS powered by jQuery.</p>
-                                <div class="row btnsRow">
-                                    <a type="button" class="btn site"
-                                        href="https://a-thread.github.io/Daily-Scheduler/">App</a>
-                                    <a type="button" class="btn gitrepo"
-                                        href="https://github.com/a-thread/Daily-Scheduler">Code</a>
-                                </div>
-                            </div>
-
+                <!-- Daily Work Scheduler -->
+                <media class="portfolio-item">
+                    <div class="card">
+                        <!-- image -->
+                        <img class="card-img-top" src="./images/work-day.png" alt="work day scheduler app">
+                        <!-- title -->
+                        <div class="card-header pet-finder" data-toggle="collapse" href="#scheduler" role="button"
+                            aria-expanded="false" aria-controls="dailyButtons">
+                            Work Day Scheduler
                         </div>
-                    </media>
-
-                    <!-- Code Quiz -->
-                    <media class="portfolio-item">
-                        <div class="card">
-                            <!-- image -->
-                            <img class="card-img-top" src="./images/quiz.png" alt="code quiz app">
-                            <!-- title -->
-                            <div class="card-header pet-finder" data-toggle="collapse" href="#codeQuiz" role="button"
-                                aria-expanded="false" aria-controls="weatherDashButtons">
-                                Code Quiz!
-                            </div>
-                            <!-- tech used -->
-                            <div class="card-body">
-                                <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, Moment
-                            </div>
-                            <!-- Card w/ Description & buttons -->
-                            <div class="card-body collapse" id="codeQuiz">
-                                <p class="description"><strong>Code Quiz!</strong> is a timed multiple choice coding quiz that is
-                                    responsive to multiple screen sizes and has a clean interface.</p>
-
-                                <div class="row btnsRow">
-                                    <a type="button" class="btn site"
-                                        href="https://a-thread.github.io/Timed-Code-Quiz/">App</a>
-                                    <a type="button" class="btn gitrepo"
-                                        href="https://github.com/a-thread/Timed-Code-Quiz">Code</a>
-                                </div>
+                        <!-- tech used -->
+                        <div class="card-body">
+                            <strong>Tech Used:</strong> HTML, CSS, JavaScript, jQuery, Moment, Coolers
+                        </div>
+                        <!-- Card w/ Description & Buttons -->
+                        <div class="card-body collapse" id="scheduler">
+                            <p class="description"><strong>Work Day Scheduler</strong> is a simple calendar
+                                application that allows the user to save events for each hour of the
+                                day. This app will run in the browser and feature dynamically updated
+                                HTML and CSS powered by jQuery.</p>
+                            <div class="row btnsRow">
+                                <a type="button" class="btn site"
+                                    href="https://a-thread.github.io/Daily-Scheduler/">App</a>
+                                <a type="button" class="btn gitrepo"
+                                    href="https://github.com/a-thread/Daily-Scheduler">Code</a>
                             </div>
                         </div>
-                    </media>
 
-                    <!-- Password Generator -->
-                    <media class="portfolio-item">
-                        <div class="card password">
-                            <!-- image -->
-                            <img class="card-img-top" src="./images/password.png" alt="password generator App">
-                            <!-- title -->
-                            <div class="card-header" data-toggle="collapse" href="#password" role="button"
-                                aria-expanded="false" aria-controls="passwordAppButtons">
-                                Password Generator
-                            </div>
-                            <!-- tech used -->
-                            <div class="card-body">
-                                <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, Moment
-                            </div>
-                            <!-- Card w/ Description & Buttons -->
-                            <div class="card-body collapse" id="password">
-                                <p class="description"><strong>Personal Password Generator</strong> is a simple
-                                    browser-based app that generates a random password with user-selected
-                                    criteria.</p>
-                                <div class="row btnsRow">
-                                    <a type="button" class="btn site"
-                                        href="https://a-thread.github.io/Personal-Password-Generator/">App</a>
-                                    <a type="button" class="btn gitrepo"
-                                        href="https://github.com/a-thread/Personal-Password-Generator">Code</a>
-                                </div>
-                            </div>
+                    </div>
+                </media>
 
+                <!-- Code Quiz -->
+                <media class="portfolio-item">
+                    <div class="card">
+                        <!-- image -->
+                        <img class="card-img-top" src="./images/quiz.png" alt="code quiz app">
+                        <!-- title -->
+                        <div class="card-header pet-finder" data-toggle="collapse" href="#codeQuiz" role="button"
+                            aria-expanded="false" aria-controls="weatherDashButtons">
+                            Code Quiz!
                         </div>
-                    </media>
-                </div>
-            </main>
-        </div>
+                        <!-- tech used -->
+                        <div class="card-body">
+                            <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, Moment
+                        </div>
+                        <!-- Card w/ Description & buttons -->
+                        <div class="card-body collapse" id="codeQuiz">
+                            <p class="description"><strong>Code Quiz!</strong> is a timed multiple choice coding
+                                quiz that is
+                                responsive to multiple screen sizes and has a clean interface.</p>
+
+                            <div class="row btnsRow">
+                                <a type="button" class="btn site"
+                                    href="https://a-thread.github.io/Timed-Code-Quiz/">App</a>
+                                <a type="button" class="btn gitrepo"
+                                    href="https://github.com/a-thread/Timed-Code-Quiz">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </media>
+
+                <!-- Password Generator -->
+                <media class="portfolio-item">
+                    <div class="card password">
+                        <!-- image -->
+                        <img class="card-img-top" src="./images/password.png" alt="password generator App">
+                        <!-- title -->
+                        <div class="card-header" data-toggle="collapse" href="#password" role="button"
+                            aria-expanded="false" aria-controls="passwordAppButtons">
+                            Password Generator
+                        </div>
+                        <!-- tech used -->
+                        <div class="card-body">
+                            <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, Moment
+                        </div>
+                        <!-- Card w/ Description & Buttons -->
+                        <div class="card-body collapse" id="password">
+                            <p class="description"><strong>Personal Password Generator</strong> is a simple
+                                browser-based app that generates a random password with user-selected
+                                criteria.</p>
+                            <div class="row btnsRow">
+                                <a type="button" class="btn site"
+                                    href="https://a-thread.github.io/Personal-Password-Generator/">App</a>
+                                <a type="button" class="btn gitrepo"
+                                    href="https://github.com/a-thread/Personal-Password-Generator">Code</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </media>
+            </div>
+        </main>
     </div>
-
     <!-- Sticky Footer -->
     <nav class="footer navbar fixed-bottom">
         <div class="mx-auto">
