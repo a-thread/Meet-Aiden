@@ -31,9 +31,13 @@ I used a dropdown nav item to link to my Github, LinkedIn and Email
 ![Contact Dropdown](./assets/images/contact.gif)
 
 ### *Portfolio*
-In this build I got to play around with Bootstrap a lot more. Here, I created collapsable cards for each portfolio item
 
 ![Portfolio Demo](./assets/images/portfolio.gif)
+
+### *AnimateCSS and ScrollReveal* 
+I used Animate CSS for the headers on my intro section in conjunction with Scroll Reveal to make my Intro section and Portfolio section more dynamic. 
+
+![animateCss intro gif](./assets/images/animateCSS.gif)
 
 
 *If you like what you see here, contact [Aiden Threadgoode!](mailto:aiden.threadgoode@gmail.com)*

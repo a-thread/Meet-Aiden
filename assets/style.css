@@ -172,7 +172,7 @@ div.btnsRow {
     justify-content: center;
 }
 
-div.card-header:hover, a.site, a.gitrepo {
+a.site, a.gitrepo {
     background-color: #ffd6ba;
     color: black;
     font-weight: 400;
