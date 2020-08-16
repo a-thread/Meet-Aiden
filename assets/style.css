@@ -8,7 +8,7 @@ body {
 /* Nav & Footer */
 
 nav {
-    background-color: black;
+    background-color: #474C5C;
     font-family: "Ubuntu", sans-serif;
     max-height: fit-content;
     display: flex;
@@ -68,6 +68,7 @@ ul.contact-list {
     align-items: flex-end;
     list-style-type: none;
     color: white;
+    font-size: 4rem;
 }
 
 /* Headers */
@@ -75,11 +76,13 @@ ul.contact-list {
 h2 {
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
+    color: #474C5C;
 }
 
 h3 {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
+    color: #474C5C;
 }
 
 /* Intro Section */
@@ -100,7 +103,7 @@ div.intro-background {
 }
 
 h1 {
-    color: black;
+    color: #474C5C;
     font-family: "Marck Script", cursive;
     font-weight: 500;
     font-size: 5rem;
@@ -110,6 +113,7 @@ h1 {
 h3 {
     font-family: "Ubuntu", sans-serif;
     margin-bottom: 4rem;
+    color: #474C5C;
 }
 
 /* About Me */
