@@ -12,23 +12,20 @@ This is a portfolio containing contact information, project examples, as well as
 >- CSS
 >- Font Awesome
 >- Google Fonts
+>- Animate.css
+>- ScrollReveal.js
 >- Coolors
 >- Canva
 
 ## Personalized Stylings
 I used Canva to create a personalized headshot to add a simple but elegant touch to the layout. Through Coolors, I was able to put together a unique and eye-catching color scheme to tie the whole site together
 
-![About Me](./assets/images/intro.png)
+![About Me](./assets/images/intro.gif)
 
 ### *Nav*
 I used a responsive nav to make sure that this site would be mobile first.
 
 ![Responsive Navigation](./assets/images/responsive.gif)
-
-### *Contact*
-I used a dropdown nav item to link to my Github, LinkedIn and Email
-
-![Contact Dropdown](./assets/images/contact.gif)
 
 ### *Portfolio*
 

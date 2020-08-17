@@ -11,6 +11,7 @@ nav.nav {
     background-color: #474C5C;
     font-family: "Ubuntu", sans-serif;
     width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
 }
 
 h2.logo {
@@ -25,7 +26,7 @@ li.nav-item, a.nav-link {
     font-weight: 400;
     margin-top: 0;
     padding-top: 0;
-    font-size: 22px;
+    font-size: 20px;
     margin-right: 1rem;
     text-align: right;
 }
@@ -62,7 +63,6 @@ ul.contact-list {
     font-size: 4rem;
 }
 
-
 /* Intro Section */
 
 div.intro-background {
@@ -90,6 +90,12 @@ h2, a.typewrite {
     font-family: "Ubuntu", sans-serif;
     color: #474C5C;
 }
+
+a.typewrite {
+    text-decoration: underline;
+    text-decoration-color: #ffd6ba;
+}
+
 h3 {
     font-family: "Ubuntu", sans-serif;
     margin-bottom: 3rem;
@@ -215,7 +221,27 @@ div.password {
     margin-bottom: 3rem;
 }
 
+/* Resume */
+
+.resume-pdf {
+    padding-top: 6rem;
+    width: 800px;
+    height: 2100px;
+    padding-bottom: 2rem;
+}
+
+div.resume {
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 800px) {
+    img.headshot-round {
+        float: none;
+        display: inline;
+        align-items: center;
+        padding-top: 1rem;
+    }
     button.navbar-toggler {
         max-width: 3rem;
         max-height: 3rem;
