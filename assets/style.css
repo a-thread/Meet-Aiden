@@ -7,19 +7,10 @@ body {
 
 /* Nav & Footer */
 
-nav {
+nav.nav {
     background-color: #474C5C;
     font-family: "Ubuntu", sans-serif;
-    max-height: fit-content;
-    display: flex;
-    flex-direction: column;
     width: 100%;
-}
-
-a.logo-hamburger, div.navLinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 h2.logo {
@@ -71,49 +62,83 @@ ul.contact-list {
     font-size: 4rem;
 }
 
-/* Headers */
-
-h2 {
-    font-weight: 700;
-    font-family: "Ubuntu", sans-serif;
-    color: #474C5C;
-}
-
-h3 {
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
-    color: #474C5C;
-}
 
 /* Intro Section */
 
 div.intro-background {
     background-color: #bee3db;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 40rem;
 }
 
-.headshot-round {
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    padding: 0;
+img.headshot-round {
+    float: right;
 }
 
 h1 {
     color: #474C5C;
     font-family: "Marck Script", cursive;
     font-weight: 500;
-    font-size: 5rem;
-    margin-bottom: 1rem;
+    font-size: 4rem;
 }
 
+h2, a.typewrite {
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    color: #474C5C;
+}
 h3 {
     font-family: "Ubuntu", sans-serif;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     color: #474C5C;
+    font-size: 18px;
+}
+
+img.headshot-round {
+    width: 30rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+/* typwriter Descriptor */
+
+.typewriter h3 {
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange;
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
+    animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+/* The typewriter cursor effect */
+
+@keyframes blink-caret {
+    from, to {
+        border-color: transparent
+    }
+    50% {
+        border-color: orange;
+    }
 }
 
 /* About Me */
@@ -126,11 +151,6 @@ div.about-me-background {
 }
 
 /* Bio width and spacing */
-
-.headshot-round {
-    margin-top: 7rem;
-    text-align: center;
-}
 
 p.bio {
     font-family: "Open Sans", sans-serif;
@@ -196,29 +216,31 @@ div.password {
 }
 
 @media (max-width: 800px) {
-    body {
-        width: 100%;
-    }
-    /* spacing for nav */
-    a.logo-hamburger {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    button.navbar-toggler {
+        max-width: 3rem;
+        max-height: 3rem;
     }
     /* sizing for nav */
     li.nav-item, a.nav-link {
         font-size: 20px;
     }
+    div.intro-background {
+        flex-direction: column;
+    }
     /* responsive sizing for headers */
     h1 {
-        font-size: 11vw;
-    }
-    h2 {
-        font-size: 6vw;
+        font-size: 9vw;
         text-align: center;
     }
+    h2, a.typewriter {
+        font-size: 5vw;
+        text-align: center;
+    }
+    h2.typing {
+        margin-bottom: 3rem;
+    }
     h3 {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     h2.about-title {
         text-align: center;

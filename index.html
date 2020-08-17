@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicon_io/site.webmanifest">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
@@ -18,23 +23,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <!-- Local CSS -->
     <link href="./assets/style.css" rel="stylesheet" />
-    <title>Meet Aiden Threadgoode</title>
+    <title>Aiden Threadgoode Portfolio</title>
 </head>
 
 <!-- Navbar -->
 <nav class="nav navbar navbar-expand-lg fixed-top">
     <!-- logo -->
-    <a class="col-md-4 col-sm-12 logo-hamburger">
+    <a class="navbar-brand">
         <h2 class="logo text-white">Aiden Threadgoode</h2>
-        <!-- Toggle Button -->
-        <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"
-            data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-        </button>
     </a>
+    <!-- Toggle Button -->
+    <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
     <!-- Nav Items -->
-    <div class="collapse navbar-collapse col-md-8 navLinks" id="navbarToggler">
+    <div class="collapse navbar-collapse navLinks" id="navbarNav">
         <ul class="navbar-nav">
             <!-- Portfolio -->
             <li class="nav-item">
@@ -69,14 +73,20 @@
     <!-- Intro Section -->
     <div class="intro-background">
         <!-- Headshot Image -->
-        <media class="headshot-image mx-auto">
-            <img src="./assets/images/profile-photo.png" class="headshot-round" alt="Headshot of Aiden" />
-        </media>
-        <!-- Name -->
-        <h1 class="animate__animated animate__backInLeft">meet Aiden</h1>
-        <!-- Descriptor -->
-        <h3 Class="animate__animated animate__backInRight animate__delay-1s">Full Stack Web Developer & Graphic Designer
-        </h3>
+        <div class="headshot-image mx-auto col-md-6 col-sm-12">
+            <img src="./assets/images/profile-photo.png" class="headshot-round img-fluid" alt="Headshot of Aiden" />
+        </div>
+        <div class="col-md-6 col-sm-12 intro">
+            <!-- Name -->
+            <h1 class="animate__animated animate__backInLeft">meet Aiden</h1>
+            <!-- Descriptors -->
+            <h2 class="typing">
+                <a class="typewrite" data-period="2000"
+                    data-type='[ "Full Stack Developer", "Graphic Designer", "Dog Dad", "Trans Rights Activist", "Communications Specialist"]'>
+                    <span class="wrap"></span>
+                </a>
+            </h2>
+        </div>
     </div>
 
     <!-- About Me Section -->
