@@ -6,7 +6,7 @@
 ## Description
 This is a portfolio containing contact information, project examples, as well as a short bio. It is a mobile-first design featuring custom stylings and was a ton of fun to make!
 
-#### Technologies Used
+## Technologies Used
 >- Bootstrap
 >- jQuery
 >- CSS
