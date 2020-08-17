@@ -222,6 +222,9 @@ div.password {
 }
 
 /* Resume */
+body.resume {
+    background-color: #bee3db;
+}
 
 .resume-pdf {
     padding-top: 6rem;
@@ -236,22 +239,19 @@ div.resume {
 }
 
 @media (max-width: 800px) {
-    img.headshot-round {
-        float: none;
-        display: inline;
-        align-items: center;
-        padding-top: 1rem;
-    }
-    button.navbar-toggler {
-        max-width: 3rem;
-        max-height: 3rem;
-    }
     /* sizing for nav */
     li.nav-item, a.nav-link {
         font-size: 20px;
     }
+    /* intro */
     div.intro-background {
         flex-direction: column;
+    }
+    img.headshot-round {
+        float: none;
+        display: inline;
+        align-items: center;
+        padding: 0rem;
     }
     /* responsive sizing for headers */
     h1 {
@@ -279,5 +279,9 @@ div.resume {
     }
     #container {
         width: fit-content;
+    }
+    /* resume */
+    .resume-pdf {
+        height: 800px;
     }
 }
