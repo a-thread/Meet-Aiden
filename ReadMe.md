@@ -1,7 +1,7 @@
 # Aiden Threadgoode: Portfolio
-![license](https://img.shields.io/github/license/a-thread/Portfolio)
+![license](https://img.shields.io/github/license/a-thread/Aiden-Threadgoode-Portfolio)
 
-#### [My Responsive Portfolio](https://a-thread.github.io/Portfolio/)
+#### [My Responsive Portfolio](https://a-thread.github.io/Aiden-Threadgoode-Portfolio/)
 
 ## Description
 This is a portfolio containing contact information, project examples, as well as a short bio. It is a mobile-first design featuring custom stylings and was a ton of fun to make!
