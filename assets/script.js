@@ -1,13 +1,14 @@
 $(document).ready(function () {
   // bio scroll reveal
   ScrollReveal().reveal("div.bio-container", {
-    viewFactor: 1.0,
+    viewFactor: 0.2,
+    reset: true,
   });
 
   // porfolio scroll reveal
   ScrollReveal().reveal("div.card", {
-    viewFactor: 0.1,
-    reset: true,
+    viewFactor: 0.2,
+    reset: true
   });
 
   // intro typing effects (https://css-tricks.com/snippets/css/typewriter-effect/)
