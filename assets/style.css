@@ -157,11 +157,10 @@ h3 {
 
 /* About Me */
 
-div.about-me-background {
-    width: 100%;
+main.about-me {
+    width: 100vw;
     background-color: #faf9f9;
-    padding-top: 4rem;
-    padding-bottom: 5rem;
+    padding-top: 3.5rem;
 }
 
 /* Bio width and spacing */
@@ -171,46 +170,42 @@ p.bio {
     max-width: 35rem;
 }
 
-/* Portfolio */
-
-#portfolio {
-    margin-top: 3rem;
-    margin-bottom: 4rem;
+/* Portfolio Section */
+h2.portfolio-title {
+    margin-top: 1.5rem;
 }
 
-div.portfolio {
-    max-width: fit-content;
-}
-
-div.card-deck {
+article.portfolio-item {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #89b0ae;
 }
 
-div.card {
-    margin: 1rem auto;
-    position: relative;
-    min-width: 19rem;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
+article:last-of-type {
+    margin-bottom: 3.5rem;
 }
 
-div.card-header {
+div.header {
     font-family: "Ubuntu", sans-serif;
     color: white;
     text-align: center;
-    background-color: #89b0ae;
     font-weight: 500;
-    font-size: 22px;
+    font-size: 24px;
+    line-height: 3rem;
 }
 
+/* buttons in articles */
 div.btnsRow {
     justify-content: center;
 }
 
 a.site, a.gitrepo {
-    background-color: #ffd6ba;
-    color: black;
+    background-color: #474C5C;
+    color: whitesmoke;
     font-weight: 400;
 }
 
@@ -221,13 +216,10 @@ a.site, a.gitrepo {
 }
 
 a.site:hover, a.gitrepo:hover {
-    background-color: #89b0ae;
-    color: white;
+    background-color: #ffd6ba;
+    color: black;
 }
 
-div.password {
-    margin-bottom: 3rem;
-}
 
 /* Resume */
 
@@ -261,12 +253,14 @@ div.resume {
     }
     /* responsive sizing for headers */
     /* Meet Aiden header */
-    h1 {
+    h1.intro-title {
         font-size: 10vw;
         text-align: center;
+        margin-top: 0;
     }
     /* All headers */
-    h2 {
+    h2.about-title, 
+    h2.portfolio-title {
         font-size: 8vw;
         text-align: center;
     }
@@ -275,6 +269,7 @@ div.resume {
         font-size: 6vw;
         margin-top: 1rem;
         margin-bottom: 3.5rem;
+        text-align: center;
     }
     /* Card Headers */
     div.card-header {

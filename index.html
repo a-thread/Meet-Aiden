@@ -46,7 +46,7 @@
             </li>
             <!-- Resume -->
             <li class="nav-item">
-                <a class="nav-link" href="./resume.html">Resume</a>
+                <a class="nav-link" href="./assets/resume.html">Resume</a>
             </li>
             <!-- Bio -->
             <li class="nav-item">
@@ -78,11 +78,12 @@
     <div class="intro-background">
         <!-- Headshot Image -->
         <div class="headshot-image col-md-6 col-sm-12">
-            <img src="./assets/images/profile-photo.png" class="headshot-round img-fluid animate__animated animate__backInUp" alt="Headshot of Aiden" />
+            <img src="./assets/images/profile-photo.png"
+                class="headshot-round img-fluid animate__animated animate__backInUp" alt="Headshot of Aiden" />
         </div>
         <div class="col-md-6 col-sm-12 intro">
             <!-- Name -->
-            <h1 class="animate__animated animate__backInLeft">meet Aiden</h1>
+            <h1 class="intro-title animate__animated animate__backInLeft">meet Aiden</h1>
             <!-- Descriptors -->
             <h2 class="typing">
                 <a class="typewrite" data-period="2000"
@@ -94,9 +95,9 @@
     </div>
 
     <!-- About Me Section -->
-    <div class="about-me-background" id="bio">
+    <main class="about-me" id="bio">
         <div class="container bio-container">
-            <main class="row">
+            <div class="row">
                 <!-- About Me Title-->
                 <h2 class="col-md-4 about-title">
                     About Me
@@ -127,157 +128,178 @@
                     <!-- End Bio -->
                 </article>
                 <!-- End About Me -->
-            </main>
+            </div>
         </div>
-    </div>
+    </main>
 
     <!-- Portfolio Section -->
-    <div class="container" id="portfolio">
-        <main class="portfolio-main container">
+    <main class="portfolio-main container" id="portfolio">
 
-            <!-- Header -->
-            <h2>
-                Portfolio
-            </h2>
+        <!-- Header -->
+        <h2 class="portfolio-title">
+            Portfolio
+        </h2>
 
-            <hr />
-            <div class="card-deck">
+        <hr />
 
-                <!-- Pet Finder Project -->
-                <div class="card">
-                    <!-- image -->
-                    <img class="card-img-top" src="./assets/images/pet-finder.png" alt="Adults Only Pet Finder App">
-                    <!-- title -->
-                    <div class="card-header">
-                        Adults Only Pet Finder
-                    </div>
-                    <!-- Card -->
-                    <div class="card-body">
-                        <p class="description"><strong>Adults Only Pet Finder</strong> is a humurous
-                            application that
-                            allows users to specify what they are looking for in a pet and receive a
-                            "match" with a comedic description. </p>
-                        <!-- tech used -->
-                        <p><strong>Tech Used:</strong> HTML, CSS, Material, animate.css, JavaScript, jQuery,
-                            scrollreveal.js,
-                            random picture APIs</p>
-                        <!-- Buttons -->
-                        <div class="row btnsRow">
-                            <a type="button" class="btn site"
-                                href="https://a-thread.github.io/adults-pet-finder/">App</a>
-                            <a type="button" class="btn gitrepo"
-                                href="https://github.com/a-thread/adults-pet-finder">Code</a>
-                        </div>
-                    </div>
+        <!-- Pet Finder Project -->
+        <article class="portfolio-item">
+            <div class="col-md-5 col-sm-12">
+                <!-- image -->
+                <img class="card-img-top" src="./assets/images/pet-finder.png" alt="Adults Only Pet Finder App">
+            </div>
+            <div class="col-md-7 col-sm-12">
+                <!-- title -->
+                <div class="header">
+                    Adults Only Pet Finder
                 </div>
-
-                <!-- Weather App -->
-                <div class="card">
-                    <!-- image -->
-                    <img class="card-img-top" src="./assets/images/weatherDash.png" alt="Weather Dashboard App">
-                    <!-- title -->
-                    <div class="card-header">
-                        weatherDash
-                    </div>
-                    <!-- Card -->
-                    <div class="card-body">
-                        <p class="description"> <strong>weatherDash</strong> is a Weather App that
-                            displays current
-                            weather data as well as a five day forecast for any location your heart
-                            desires!</p>
-                        <!-- tech used -->
-                        <p><strong>Tech Used:</strong> HTML, CSS, Material, JavaScript, jQuery, Moment.js,
-                            OpenWeatherApi, Canva</p>
-                        <!-- Buttons -->
-                        <div class="row btnsRow">
-                            <a type="button" class="btn site"
-                                href="https://a-thread.github.io/Weather-API-Aiden/">App</a>
-                            <a type="button" class="btn gitrepo"
-                                href="https://github.com/a-thread/Weather-API-Aiden">Code</a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!-- Daily Work Scheduler -->
-                <div class="card">
-                    <!-- image -->
-                    <img class="card-img-top" src="./assets/images/work-day.png" alt="work day scheduler app">
-                    <!-- title -->
-                    <div class="card-header">
-                        Work Day Scheduler
-                    </div>
-                    <!-- Card -->
-                    <div class="card-body">
-                        <!-- Description -->
-                        <p class="description"><strong>Work Day Scheduler</strong> is a simple calendar
-                            application that allows the user to save events for each hour of the
-                            day. This app will run in the browser and feature dynamically updated
-                            HTML and CSS powered by jQuery.</p>
-                        <!-- Tech Used -->
-                        <p><strong>Tech Used:</strong> HTML, CSS, JavaScript, Moment.js, Coolers</p>
-                        <!-- Buttons -->
-                        <div class="row btnsRow">
-                            <a type="button" class="btn site" href="https://a-thread.github.io/Daily-Scheduler/">App</a>
-                            <a type="button" class="btn gitrepo"
-                                href="https://github.com/a-thread/Daily-Scheduler">Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Code Quiz -->
-                <div class="card">
-                    <!-- image -->
-                    <img class="card-img-top" src="./assets/images/quiz.png" alt="code quiz app">
-                    <!-- title -->
-                    <div class="card-header">
-                        Code Quiz
-                    </div>
-                    <!-- Card -->
-                    <div class="card-body">
-                        <!-- Description -->
-                        <p class="description"><strong>Code Quiz!</strong> is a timed multiple choice coding
-                            quiz that is
-                            responsive to multiple screen sizes and has a clean interface.</p>
-                        <!-- Tech Used -->
-                        <p><strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, Moment.js</p>
-                        <!-- Buttons -->
-                        <div class="row btnsRow">
-                            <a type="button" class="btn site" href="https://a-thread.github.io/Timed-Code-Quiz/">App</a>
-                            <a type="button" class="btn gitrepo"
-                                href="https://github.com/a-thread/Timed-Code-Quiz">Code</a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Password Generator -->
-                <div class="card password">
-                    <!-- image -->
-                    <img class="card-img-top" src="./assets/images/password.png" alt="password generator App">
-                    <!-- title -->
-                    <div class="card-header">
-                        Password Generator
-                    </div>
-                    <!-- Card -->
-                    <div class="card-body">
-                        <!-- Description -->
-                        <p class="description"><strong>Personal Password Generator</strong> is a simple
-                            browser-based app that generates a random password with user-selected
-                            criteria.</p>
-                        <!-- Tech Used -->
-                        <p><strong>Tech Used:</strong> HTML, CSS, Bootstrap, jQuery, Moment.js</p>
-                        <!-- Buttons -->
-                        <div class="row btnsRow">
-                            <a type="button" class="btn site"
-                                href="https://a-thread.github.io/Personal-Password-Generator/">App</a>
-                            <a type="button" class="btn gitrepo"
-                                href="https://github.com/a-thread/Personal-Password-Generator">Code</a>
-                        </div>
+                <!-- Card -->
+                <div class="description">
+                    <p class="description"><strong>Adults Only Pet Finder</strong> is a humurous
+                        application that
+                        allows users to specify what they are looking for in a pet and receive a
+                        "match" with a comedic description.
+                        <br />
+                        <br />
+                    <!-- tech used -->
+                    <strong>Tech Used:</strong> HTML, CSS, Material, animate.css, JavaScript, jQuery,
+                        scrollreveal.js,
+                        random picture APIs</p>
+                    <!-- Buttons -->
+                    <div class="row btnsRow">
+                        <a type="button" class="btn site" href="https://a-thread.github.io/adults-pet-finder/">App</a>
+                        <a type="button" class="btn gitrepo"
+                            href="https://github.com/a-thread/adults-pet-finder">Code</a>
                     </div>
                 </div>
             </div>
-        </main>
-    </div>
+        </article>
+
+        <!-- Weather App -->
+        <article class="portfolio-item">
+            <div class="col-md-5 col-sm-12">
+                <!-- image -->
+                <img class="card-img-top" src="./assets/images/weatherDash.png" alt="Weather Dashboard App">
+            </div>
+            <div class="col-md-7 col-sm-12" <!-- title -->
+                <div class="header">
+                    weatherDash
+                </div>
+                <!-- Card -->
+                <div class="description">
+                    <p class="description"> <strong>weatherDash</strong> is a Weather App that
+                        displays current
+                        weather data as well as a five day forecast for any location your heart
+                        desires!
+                        <br />
+                        <br />
+                    <!-- tech used -->
+                    <strong>Tech Used:</strong> HTML, CSS, Material, JavaScript, jQuery, Moment.js,
+                        OpenWeatherApi, Canva</p>
+                    <!-- Buttons -->
+                    <div class="row btnsRow">
+                        <a type="button" class="btn site" href="https://a-thread.github.io/Weather-API-Aiden/">App</a>
+                        <a type="button" class="btn gitrepo"
+                            href="https://github.com/a-thread/Weather-API-Aiden">Code</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+
+        <!-- Daily Work Scheduler -->
+        <article class="portfolio-item">
+            <div class="col-md-5 col-sm-12">
+                <!-- image -->
+                <img class="card-img-top" src="./assets/images/work-day.png" alt="work day scheduler app">
+            </div>
+            <div class="col-md-7 col-sm-12">
+                <!-- title -->
+                <div class="header">
+                    Work Day Scheduler
+                </div>
+                <!-- Card -->
+                <div class="description">
+                    <!-- Description -->
+                    <p class="description"><strong>Work Day Scheduler</strong> is a simple calendar
+                        application that allows the user to save events for each hour of the
+                        day. This app will run in the browser and feature dynamically updated
+                        HTML and CSS powered by jQuery.
+                        <br />
+                        <br />
+                    <!-- Tech Used -->
+                    <strong>Tech Used:</strong> HTML, CSS, JavaScript, Moment.js, Coolers</p>
+                    <!-- Buttons -->
+                    <div class="row btnsRow">
+                        <a type="button" class="btn site" href="https://a-thread.github.io/Daily-Scheduler/">App</a>
+                        <a type="button" class="btn gitrepo" href="https://github.com/a-thread/Daily-Scheduler">Code</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Code Quiz -->
+        <article class="portfolio-item">
+            <div class="col-md-5 col-sm-12">
+                <!-- image -->
+                <img class="card-img-top" src="./assets/images/quiz.png" alt="code quiz app">
+            </div>
+            <div class="col-md-7 col-sm-12">
+                <!-- title -->
+                <div class="header">
+                    Code Quiz
+                </div>
+                <!-- Card -->
+                <div class="body">
+                    <!-- Description -->
+                    <p class="description"><strong>Code Quiz!</strong> is a timed multiple choice coding
+                        quiz that is
+                        responsive to multiple screen sizes and has a clean interface.
+                        <br />
+                        <br />
+                    <!-- Tech Used -->
+                    <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, Moment.js</p>
+                    <!-- Buttons -->
+                    <div class="row btnsRow">
+                        <a type="button" class="btn site" href="https://a-thread.github.io/Timed-Code-Quiz/">App</a>
+                        <a type="button" class="btn gitrepo" href="https://github.com/a-thread/Timed-Code-Quiz">Code</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Password Generator -->
+        <article class="portfolio-item">
+            <div class="col-md-5 sol-sm-12">
+                <!-- image -->
+                <img class="card-img-top" src="./assets/images/password.png" alt="password generator App">
+            </div>
+            <div class="col-md-7 col-sm-12">
+                <!-- title -->
+                <div class="header">
+                    Password Generator
+                </div>
+                <!-- Card -->
+                <div class="description">
+                    <!-- Description -->
+                    <p class="description"><strong>Personal Password Generator</strong> is a simple
+                        browser-based app that generates a random password with user-selected
+                        criteria.
+                        <br/>
+                        <br/>
+                    <!-- Tech Used -->
+                    <strong>Tech Used:</strong> HTML, CSS, Bootstrap, jQuery, Moment.js</p>
+                    <!-- Buttons -->
+                    <div class="row btnsRow">
+                        <a type="button" class="btn site"
+                            href="https://a-thread.github.io/Personal-Password-Generator/">App</a>
+                        <a type="button" class="btn gitrepo"
+                            href="https://github.com/a-thread/Personal-Password-Generator">Code</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
     <!-- Sticky Footer -->
     <nav class="footer navbar fixed-bottom">
         <div class="mx-auto">
