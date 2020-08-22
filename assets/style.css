@@ -241,8 +241,12 @@ div.resume {
 
 @media (max-width: 800px) {
     /* sizing for nav */
+    h2.logo {
+        font-size: 24px;
+    }
     li.nav-item, a.nav-link {
         font-size: 20px;
+        align-content: left;
     }
     /* intro */
     div.intro-background {
