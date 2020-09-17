@@ -33,21 +33,21 @@ This is a portfolio website containing contact information, project examples, as
 ## Personalized Stylings
 I used Canva to create a personalized headshot to add a simple but elegant touch to the layout. Through Coolors, I was able to put together a unique and eye-catching color scheme to tie the whole site together
 
-![About Me](./assets/images/md-images/intro.gif)
+![About Me](./assets/images/md/intro.gif)
 
 ### *Navigation*
 I used a responsive nav to make sure that this site would be mobile first.
 
-![Responsive Navigation](./assets/images/md-images/responsive.gif)
+![Responsive Navigation](./assets/images/md/responsive.gif)
 
 ### *Portfolio*
 
-![Portfolio Demo](./assets/images/md-images/portfolio.gif)
+![Portfolio Demo](./assets/images/md/portfolio.gif)
 
 ### *AnimateCSS and ScrollReveal* 
 I used Animate CSS for the headers on my intro section in conjunction with Scroll Reveal to make my Intro section and Portfolio section more dynamic. 
 
-![animateCss intro gif](./assets/images/md-images/animateCSS.gif)
+![animateCss intro gif](./assets/images/md/animateCSS.gif)
 
 ### License 
 
