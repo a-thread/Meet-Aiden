@@ -1,0 +1,64 @@
+article.portfolio, div.btnsRow, div.port-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+article.portfolio {
+    padding-top: 5rem;
+}
+
+div.port-nav {
+    padding-top: 3rem;
+    justify-content: space-around;
+}
+
+a.previous, a.next {
+    border-radius: 90px;
+}
+
+a.previous {
+    align-self: flex-start;
+}
+
+a.next {
+    align-self: flex-end;
+}
+
+img.port-img {
+    margin: 2rem;
+    width: 40vw;
+}
+
+h2.header {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 3rem;
+    margin: 1rem;
+}
+
+p.description {
+    margin: 1rem;
+}
+
+div.port-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+    article.portfolio {
+        padding-top: 3rem;
+        flex-direction: column;
+    }
+    img.port-img {
+        margin: 1rem;
+        width: 90vw;
+    }
+}

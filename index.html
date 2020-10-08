@@ -22,74 +22,76 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <!-- Local CSS -->
-    <link href="./assets/style.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
     <title>Aiden Threadgoode Portfolio</title>
 </head>
 
-<!-- Navbar -->
-<nav class="nav navbar navbar-expand-lg fixed-top">
-    <!-- logo -->
-    <a class="navbar-brand">
-        <h2 class="logo text-white">Aiden Threadgoode</h2>
-    </a>
-    <!-- Toggle Button -->
-    <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-    </button>
-    <!-- Nav Items -->
-    <div class="collapse navbar-collapse navLinks" id="navbarNav">
-        <ul class="navbar-nav">
-            <!-- Portfolio -->
-            <li class="nav-item">
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <!-- Resume -->
-            <li class="nav-item">
-                <a class="nav-link" href="./resume.html">Resume</a>
-            </li>
-            <!-- Bio -->
-            <li class="nav-item">
-                <a class="nav-link" href="#bio">About Me</a>
-            </li>
-            <!-- Contact -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Contact</a>
-                <!-- Contact Items -->
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <!-- Github -->
-                    <a class="dropdown-item" href="https://github.com/a-thread" target="_blank">GitHub</a>
-                    <!-- LinkedIn -->
-                    <a class="dropdown-item" href="https://www.linkedin.com/in/a-thread" target="_blank">LinkedIn</a>
-                    <!-- Email -->
-                    <a class="dropdown-item" href="mailto:aiden.threadgoode@gmail.com">Email</a>
-                </div>
-                <!-- end Contact List -->
-            </li>
-        </ul>
-    </div>
-    <!-- End Nav -->
-</nav>
 
 
 <body>
+    <!-- Navbar -->
+    <nav class="nav navbar navbar-expand-lg fixed-top">
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html">
+            <h2 class="logo">Aiden Threadgoode</h2>
+            <!-- <img class="logo" alt="github-username" src="assets/images/logos/white.png"> -->
+        </a>
+        <!-- Toggle Button -->
+        <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- Nav Items -->
+        <div class="collapse navbar-collapse navLinks" id="navbarNav">
+            <ul class="navbar-nav">
+                <!-- Portfolio -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <!-- Resume -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./resume.html">Resume</a>
+                </li>
+                <!-- Bio -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#bio">About Me</a>
+                </li>
+                <!-- Contact -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Contact</a>
+                    <!-- Contact Items -->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- Github -->
+                        <a class="dropdown-item" href="https://github.com/a-thread" target="_blank">GitHub</a>
+                        <!-- LinkedIn -->
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/a-thread"
+                            target="_blank">LinkedIn</a>
+                        <!-- Email -->
+                        <a class="dropdown-item" href="mailto:aiden.threadgoode@gmail.com">Email: <br/> aiden.threadgoode@gmail.com</a>
+                    </div>
+                    <!-- end Contact List -->
+                </li>
+            </ul>
+        </div>
+        <!-- End Nav -->
+    </nav>
     <!-- Intro Section -->
     <div class="intro-background">
         <!-- Headshot Image -->
         <div class="headshot-image col-md-6 col-sm-12">
             <img src="./assets/images/profile-photo.png"
-                class="headshot-round img-fluid animate__animated animate__backInUp" alt="Headshot of Aiden" />
+                class="headshot-round img-fluid animate__animated animate__rollIn" alt="Headshot of Aiden" />
         </div>
         <div class="col-md-6 col-sm-12 intro">
             <!-- Name -->
             <h1 class="intro-title animate__animated animate__backInLeft">meet Aiden</h1>
             <!-- Descriptors -->
             <h2 class="typing">
-                <a class="typewrite" data-period="2000"
+                <span class="typewrite" data-period="2000"
                     data-type='[ "Full Stack Developer", "Graphic Designer", "Dog Dad", "Trans Rights Activist", "Communications Specialist"]'>
-                    <span class="wrap"></span>
-                </a>
+                    <span class="wrap"> </span>
+                </span>
             </h2>
         </div>
     </div>
@@ -101,7 +103,9 @@
                 <!-- About Me Title-->
                 <h2 class="col-md-4 about-title">
                     About Me
+                    <!-- Github -->
                 </h2>
+
                 <article class="col-md-8">
                     <!-- Bio -->
                     <p class="bio-content">
@@ -127,6 +131,7 @@
                     </p>
                     <!-- End Bio -->
                 </article>
+
                 <!-- End About Me -->
             </div>
         </div>
@@ -142,274 +147,130 @@
 
         <hr />
 
-        <!-- Eat-Ma-Burgers -->
-        <article class="portfolio-item">
-            <div class="col-md-5 col-sm-12">
-                <!-- image -->
-                <img class="card-img-top" src="./assets/images/port-item/burger.png" alt="Eat-Ma-Burgers App">
-            </div>
-            <div class="col-md-7 col-sm-12">
-                <!-- title -->
-                <div class="header">
-                    Eat-Ma-Burgers
-                </div>
-                <!-- Card -->
-                <div class="description">
-                    <p class="description"><strong>Eat-Ma-Burgers</strong> is a restaurant app that lets users input the
-                        names of burgers they'd like to eat. When the user inputs a burger name, it is displayed on the
-                        left side, under "Burgers to Eat" with buttons enabling the user to Try it! or Delete it if they
-                        don't like it. When the user clicks Try it! the burger is moved to the right side, under
-                        "Already Sampled."
-                        <br />
-                        <br />
-                        <!-- tech used -->
-                        <strong>Tech Used:</strong> Node.js, Express.js, Express Handlebars, MySQL2, Postman</p>
-                    <!-- Buttons -->
-                    <div class="row btnsRow">
-                        <a type="button" class="btn site" href="https://eat-ma-burgers.herokuapp.com/"
-                            target="_blank">App</a>
-                        <a type="button" class="btn gitrepo" href="https://github.com/a-thread/eat-ma-burgers"
-                            target="_blank">Repo</a>
+        <div class="port-items">
+            
+            <!-- Ascent Sobriety App -->
+            <a class="port-card" href="./portfolio/ascent.html">
+                <article>
+                    <!-- image -->
+                    <img class="port-img" src="./assets/images/port-item/ascent.png" alt="Ascent Sobriety App">
+                    <!-- title -->
+                    <div class="overlay">
+                        <div class="text">Ascent Sobriety App</div>
                     </div>
-                </div>
-            </div>
-        </article>
+                </article>
+            </a>
 
-        <!-- MySQL Team Bank -->
-        <article class="portfolio-item">
-            <div class="col-md-5 col-sm-12">
-                <!-- image -->
-                <img class="card-img-top" src="./assets/images/port-item/mysql.png" alt="MySQL Team Bank App">
-            </div>
-            <div class="col-md-7 col-sm-12">
-                <!-- title -->
-                <div class="header">
-                    MySQL Team Bank
-                </div>
-                <!-- Card -->
-                <div class="description">
-                    <p class="description"><strong>MySQL Team Bank</strong> is a command-line application that allows
-                        the user to add, view & remove departments, roles and employees as well as update employee roles
-                        and managers. The user is also able to view employees by manager and view the total budget of
-                        each department.
-                        <br />
-                        <br />
-                        <!-- tech used -->
-                        <strong>Tech Used:</strong> Node.js, npm, InquirerJs, Console-Table-Printer, MySQL, HeidiSQL</p>
-                    <!-- Buttons -->
-                    <div class="row btnsRow">
-                        <a type="button" class="btn site" href="https://www.youtube.com/watch?v=iO6c0jbuMZc&feature=youtu.be"
-                        target="_blank">Demo</a>
-                        <a type="button" class="btn gitrepo" href="https://github.com/a-thread/MySQL-Team-Bank"
-                            target="_blank">Repo</a>
+            <!-- Eat-Ma-Burgers -->
+            <a class="port-card" href="./portfolio/burgers.html">
+                <article>
+                    <!-- image -->
+                    <img class="port-img" src="./assets/images/port-item/burger.png" alt="Eat-Ma-Burgers App">
+                    <!-- title -->
+                    <div class="overlay">
+                        <div class="text">Eat-Ma-Burgers</div>
                     </div>
-                </div>
-            </div>
-        </article>
-        
+                </article>
+            </a>
 
-        <!-- Markdown Generator -->
-        <article class="portfolio-item">
-            <div class="col-md-5 col-sm-12">
-                <!-- image -->
-                <img class="card-img-top" src="./assets/images/port-item/md.png" alt="Markdown Generator App">
-            </div>
-            <div class="col-md-7 col-sm-12">
-                <!-- title -->
-                <div class="header">
-                    Ultimate Markdown Generator
-                </div>
-                <!-- Card -->
-                <div class="description">
-                    <p class="description">This is a command-line application that generates an organized and
-                        professional markdown. Using prompts in the terminal, the Ultimate Markdown Generator creates a
-                        README from user input that includes a title, as well as sections for a description, table of
-                        contents, installation, usage, technologies used, tests, contributing, and questions.
-                        <br />
-                        <br />
-                        <!-- tech used -->
-                        <strong>Tech Used:</strong> Javascript, Node.js, npm, InquirerJs</p>
-                    <!-- Buttons -->
-                    <div class="row btnsRow">
-                        <a type="button" class="btn site" href="https://www.youtube.com/watch?v=4LwsgW0qiF0&feature=youtu.be"
-                        target="_blank">Demo</a>
-                        <a type="button" class="btn gitrepo" href="https://github.com/a-thread/Ultimate-Markdown-Generator"
-                            target="_blank">Repo</a>
-                    </div>
-                </div>
-            </div>
-        </article>
+            <!-- MySQL Team Bank -->
+            <a class="port-card" href="./portfolio/teamBank.html">
+                <article>
+                    <!-- image -->
+                    <img class="port-img" src="./assets/images/port-item/team.png" alt="MySQL Team Bank App">
 
-        <!-- Pet Finder Project -->
-        <article class="portfolio-item">
-            <div class="col-md-5 col-sm-12">
-                <!-- image -->
-                <img class="card-img-top" src="./assets/images/port-item/pet-finder.png" alt="Adults Only Pet Finder App">
-            </div>
-            <div class="col-md-7 col-sm-12">
-                <!-- title -->
-                <div class="header">
-                    Adults Only Pet Finder
-                </div>
-                <!-- Card -->
-                <div class="description">
-                    <p class="description"><strong>Adults Only Pet Finder</strong> is a humurous
-                        application that
-                        allows users to specify what they are looking for in a pet and receive a
-                        "match" with a comedic description.
-                        <br />
-                        <br />
-                        <!-- tech used -->
-                        <strong>Tech Used:</strong> HTML, CSS, Material, animate.css, JavaScript, jQuery,
-                        scrollreveal.js,
-                        random picture APIs</p>
-                    <!-- Buttons -->
-                    <div class="row btnsRow">
-                        <a type="button" class="btn site" href="https://a-thread.github.io/adults-pet-finder/"
-                            target="_blank">App</a>
-                        <a type="button" class="btn gitrepo" href="https://github.com/a-thread/adults-pet-finder"
-                            target="_blank">Repo</a>
+                    <div class="overlay">
+                        <div class="text">MySQL Team Bank</div>
                     </div>
-                </div>
-            </div>
-        </article>
-
-        <!-- Weather App -->
-        <article class="portfolio-item">
-            <div class="col-md-5 col-sm-12">
-                <!-- image -->
-                <img class="card-img-top" src="./assets/images/port-item/weatherDash.png" alt="Weather Dashboard App">
-            </div>
-            <div class="col-md-7 col-sm-12">
-                <!-- title -->
-                <div class="header">
-                    weatherDash
-                </div>
-                <!-- Card -->
-                <div class="description">
-                    <p class="description"> <strong>weatherDash</strong> is a Weather App that
-                        displays current
-                        weather data as well as a five day forecast for any location your heart
-                        desires!
-                        <br />
-                        <br />
-                        <!-- tech used -->
-                        <strong>Tech Used:</strong> HTML, CSS, Material, JavaScript, jQuery, Moment.js,
-                        OpenWeatherApi, Canva</p>
-                    <!-- Buttons -->
-                    <div class="row btnsRow">
-                        <a type="button" class="btn site" href="https://a-thread.github.io/Weather-API-Aiden/"
-                            target="_blank">App</a>
-                        <a type="button" class="btn gitrepo" href="https://github.com/a-thread/Weather-API-Aiden"
-                            target="_blank">Repo</a>
-                    </div>
-                </div>
-            </div>
-        </article>
+                </article>
+            </a>
 
 
-        <!-- Daily Work Scheduler -->
-        <article class="portfolio-item">
-            <div class="col-md-5 col-sm-12">
-                <!-- image -->
-                <img class="card-img-top" src="./assets/images/port-item/work-day.png" alt="work day scheduler app">
-            </div>
-            <div class="col-md-7 col-sm-12">
-                <!-- title -->
-                <div class="header">
-                    Work Day Scheduler
-                </div>
-                <!-- Card -->
-                <div class="description">
-                    <!-- Description -->
-                    <p class="description"><strong>Work Day Scheduler</strong> is a simple calendar
-                        application that allows the user to save events for each hour of the
-                        day. This app will run in the browser and feature dynamically updated
-                        HTML and CSS powered by jQuery.
-                        <br />
-                        <br />
-                        <!-- Tech Used -->
-                        <strong>Tech Used:</strong> HTML, CSS, JavaScript, Moment.js, Coolers</p>
-                    <!-- Buttons -->
-                    <div class="row btnsRow">
-                        <a type="button" class="btn site" href="https://a-thread.github.io/Daily-Scheduler/"
-                            target="_blank">App</a>
-                        <a type="button" class="btn gitrepo" href="https://github.com/a-thread/Daily-Scheduler"
-                            target="_blank">Repo</a>
+            <!-- Markdown Generator -->
+            <a class="port-card" href="./portfolio/mdGen.html">
+                <article>
+                    <!-- image -->
+                    <img class="port-img" src="./assets/images/port-item/md.png" alt="Markdown Generator App">
+                    <!-- title -->
+                    <div class="overlay">
+                        <div class="text">Ultimate Markdown Generator</div>
                     </div>
-                </div>
-            </div>
-        </article>
+                </article>
+            </a>
 
-        <!-- Code Quiz -->
-        <article class="portfolio-item">
-            <div class="col-md-5 col-sm-12">
-                <!-- image -->
-                <img class="card-img-top" src="./assets/images/port-item/quiz.png" alt="code quiz app">
-            </div>
-            <div class="col-md-7 col-sm-12">
-                <!-- title -->
-                <div class="header">
-                    Code Quiz
-                </div>
-                <!-- Card -->
-                <div class="body">
-                    <!-- Description -->
-                    <p class="description"><strong>Code Quiz!</strong> is a timed multiple choice coding
-                        quiz that is
-                        responsive to multiple screen sizes and has a clean interface.
-                        <br />
-                        <br />
-                        <!-- Tech Used -->
-                        <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, Moment.js</p>
-                    <!-- Buttons -->
-                    <div class="row btnsRow">
-                        <a type="button" class="btn site" href="https://a-thread.github.io/Timed-Code-Quiz/"
-                            target="_blank">App</a>
-                        <a type="button" class="btn gitrepo" href="https://github.com/a-thread/Timed-Code-Quiz"
-                            target="_blank">Repo</a>
+            <!-- Pet Finder Project -->
+            <a class="port-card" href="./portfolio/petFinder.html">
+                <article>
+                    <!-- image -->
+                    <img class="port-img" src="./assets/images/port-item/pet-finder.png"
+                        alt="Adults Only Pet Finder App">
+                    <!-- title -->
+                    <div class="overlay">
+                        <div class="text">Adults Only Pet Finder</div>
                     </div>
-                </div>
-            </div>
-        </article>
+                </article>
+            </a>
 
-        <!-- Password Generator -->
-        <article class="portfolio-item">
-            <div class="col-md-5 sol-sm-12">
-                <!-- image -->
-                <img class="card-img-top" src="./assets/images/port-item/password.png" alt="password generator App">
-            </div>
-            <div class="col-md-7 col-sm-12">
-                <!-- title -->
-                <div class="header">
-                    Password Generator
-                </div>
-                <!-- Card -->
-                <div class="description">
-                    <!-- Description -->
-                    <p class="description"><strong>Personal Password Generator</strong> is a simple
-                        browser-based app that generates a random password with user-selected
-                        criteria.
-                        <br />
-                        <br />
-                        <!-- Tech Used -->
-                        <strong>Tech Used:</strong> HTML, CSS, Bootstrap, jQuery, Moment.js</p>
-                    <!-- Buttons -->
-                    <div class="row btnsRow">
-                        <a type="button" class="btn site" href="https://a-thread.github.io/Personal-Password-Generator/"
-                            target="_blank">App</a>
-                        <a type="button" class="btn gitrepo"
-                            href="https://github.com/a-thread/Personal-Password-Generator" target="_blank">Repo</a>
+            <!-- Weather App -->
+            <a class="port-card" href="./portfolio/weather.html">
+                <article>
+                    <!-- image -->
+                    <img class="port-img" src="./assets/images/port-item/weatherDash.png" alt="Weather Dashboard App">
+                    <!-- title -->
+                    <div class="overlay">
+                        <div class="text">weatherDash</div>
                     </div>
-                </div>
-            </div>
-        </article>
+                </article>
+            </a>
+
+
+            <!-- Daily Work Scheduler -->
+            <a class="port-card" href="./portfolio/scheduler.html">
+                <article>
+                    <!-- image -->
+                    <img class="port-img" src="./assets/images/port-item/work-day.png" alt="work day scheduler app">
+
+                    <!-- title -->
+                    <div class="overlay">
+                        <div class="text">Work Day Scheduler</div>
+                    </div>
+                </article>
+            </a>
+
+            <!-- Code Quiz -->
+            <a class="port-card" href="./portfolio/quiz.html">
+                <article>
+                    <!-- image -->
+                    <img class="port-img" src="./assets/images/port-item/quiz.png" alt="code quiz app">
+                    <!-- title -->
+                    <div class="overlay">
+                        <div class="text">Code Quiz</div>
+                    </div>
+                </article>
+            </a>
+
+            <!-- Password Generator -->
+            <a class="port-card" href="./portfolio/password.html">
+                <article>
+                    <!-- image -->
+                    <img class="port-img" src="./assets/images/port-item/password.png" alt="password generator App">
+                    <!-- title -->
+                    <div class="overlay">
+                        <div class="text">Password Generator</div>
+                    </div>
+                </article>
+            </a>
+        </div>
     </main>
+    
     <!-- Sticky Footer -->
     <nav class="footer navbar fixed-bottom">
-        <div class="mx-auto">
-            <p class="text-white">© 2020 Aiden Threadgoode</p>
-        </div>
+        <a class="footer-item" href="https://github.com/a-thread" target="_blank"><i class="fab fa-github"></i></a>
+        <!-- LinkedIn -->
+        <a class="footer-item" href="https://www.linkedin.com/in/a-thread" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+        <!-- Email -->
+        <a class="footer-item" href="mailto:aiden.threadgoode@gmail.com"><i class="fas fa-paper-plane"></i></a>
     </nav>
 
     <!-- jQuery -->
@@ -421,7 +282,7 @@
     <!-- Scroll Reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!-- Local Script -->
-    <script src="./assets/script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>

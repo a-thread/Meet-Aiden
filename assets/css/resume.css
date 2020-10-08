@@ -1,0 +1,106 @@
+body {
+    background-color: #dbe3e6;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 3.5rem;
+}
+
+/* Nav & Footer */
+
+nav.nav {
+    background-color: #3E424D;
+    font-family: "Ubuntu", sans-serif;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+}
+
+h2.logo {
+    color: white;
+}
+
+img.logo-header {
+    max-width: 200px;
+}
+
+div.navLinks {
+    justify-content: flex-end;
+}
+
+li.nav-item, a.nav-link, a.previous, a.next {
+    font-weight: 400;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 20px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    text-align: right;
+}
+
+a.nav-link, a.dropdown-item {
+    color: #bee3db;
+}
+
+a.nav-link:hover {
+    color: white;
+}
+
+a.dropdown-item:hover, a.footer-item:hover {
+    background-color: #BBCB9F;
+    color: #3E424D;
+}
+
+div.dropdown-menu {
+    background-color: #3E424D;
+    color: whitesmoke;
+}
+
+nav.footer {
+    background-color: #3E424D;
+    max-height: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+a.footer-item {
+    border-radius: 90px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #BBCB9F;
+    font-size: 20px
+}
+
+/* Contact Me */
+
+ul.contact-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style-type: none;
+    color: white;
+    font-size: 4rem;
+}
+
+/* Resume */
+
+.resume-pdf {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+div.resume {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    /* sizing for nav */
+    h2.logo {
+        font-size: 6vw;
+    }
+    li.nav-item, a.nav-link {
+        font-size: 4vw;
+        align-content: left;
+    }
+}

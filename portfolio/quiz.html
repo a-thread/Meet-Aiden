@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="./assets/images/favicon_io/site.webmanifest">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Damion&family=Marck+Script&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <!-- Local CSS -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
+    <link href="../assets/css/portfolio.css" rel="stylesheet" />
+
+    <title>Aiden Threadgoode Portfolio</title>
+</head>
+
+
+
+<body>
+    <!-- Navbar -->
+    <nav class="nav navbar navbar-expand-lg">
+        <!-- logo -->
+        <a class="navbar-brand" href="../index.html">
+            <h2 class="logo">Aiden Threadgoode</h2>
+            <!-- <img class="logo" alt="github-username" src="assets/images/logos/white.png"> -->
+        </a>
+        <!-- Toggle Button -->
+        <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <!-- Nav Items -->
+        <div class="collapse navbar-collapse navLinks" id="navbarNav">
+            <ul class="navbar-nav">
+                <!-- Portfolio -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html#portfolio">Portfolio</a>
+                </li>
+                <!-- Resume -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../resume.html">Resume</a>
+                </li>
+                <!-- Bio -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#bio">About Me</a>
+                </li>
+                <!-- Contact -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Contact</a>
+                    <!-- Contact Items -->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- Github -->
+                        <a class="dropdown-item" href="https://github.com/a-thread" target="_blank">GitHub</a>
+                        <!-- LinkedIn -->
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/a-thread"
+                            target="_blank">LinkedIn</a>
+                        <!-- Email -->
+                        <a class="dropdown-item" href="mailto:aiden.threadgoode@gmail.com">Email</a>
+                    </div>
+                    <!-- end Contact List -->
+                </li>
+            </ul>
+        </div>
+        <!-- End Nav -->
+    </nav>
+
+    <!-- Code Quiz -->
+    <article class="portfolio">
+        <!-- image -->
+        <img class="port-img" src="../assets/images/port-item/quiz.png" alt="code quiz app">
+        <div class="port-content">
+            <!-- title -->
+            <h2 class="header">
+                Code Quiz
+            </h2>
+            <!-- Card -->
+            <div class="body">
+                <!-- Description -->
+                <p class="description"><strong>Code Quiz!</strong> is a timed multiple choice coding
+                    quiz that is
+                    responsive to multiple screen sizes and has a clean interface.
+                    <br />
+                    <br />
+                    <!-- Tech Used -->
+                    <strong>Tech Used:</strong> HTML, CSS, Bootstrap, JavaScript, jQuery, Moment.js</p>
+                <!-- Buttons -->
+                <div class="btnsRow">
+                    <a type="button" class="btn site" href="https://a-thread.github.io/Timed-Code-Quiz/"
+                        target="_blank">App</a>
+                    <a type="button" class="btn gitrepo" href="https://github.com/a-thread/Timed-Code-Quiz"
+                        target="_blank">Repo</a>
+                </div>
+            </div>
+        </div>
+    </article>
+
+
+    <!-- navigation buttons -->
+    <div class="port-nav">
+        <a class="previous" href="scheduler.html">
+            <i class="fas fa-arrow-circle-left"></i> previous
+        </a>
+
+        <a class="next" href="password.html">
+            next <i class="fas fa-arrow-circle-right"></i>
+        </a>
+    </div>
+
+    <!-- Sticky Footer -->
+    <nav class="footer navbar fixed-bottom">
+        <a class="footer-item" href="https://github.com/a-thread" target="_blank"><i class="fab fa-github"></i></a>
+        <!-- LinkedIn -->
+        <a class="footer-item" href="https://www.linkedin.com/in/a-thread" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+        <!-- Email -->
+        <a class="footer-item" href="mailto:aiden.threadgoode@gmail.com"><i class="fas fa-paper-plane"></i></a>
+    </nav>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Local Script -->
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
