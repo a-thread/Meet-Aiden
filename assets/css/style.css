@@ -276,9 +276,8 @@ div.btnsRow {
 }
 
 a.site, a.gitrepo, a.previous, a.next {
-    background-color: #474C5C;
-    color: whitesmoke;
-    font-weight: 400;
+    background-color: #A6B58A;
+    color: black;
 }
 
 a.site, a.gitrepo {
@@ -288,8 +287,9 @@ a.site, a.gitrepo {
 }
 
 a.site:hover, a.gitrepo:hover, a.next:hover, a.previous:hover{
-    background-color: #A6B58A;
-    color: black;
+    background-color: #474C5C;
+    color: whitesmoke;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 800px) {
