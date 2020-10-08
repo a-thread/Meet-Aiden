@@ -14,11 +14,15 @@ article.portfolio {
 
 div.port-nav {
     padding-top: 3rem;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-content: space-between;
 }
 
 a.previous, a.next {
     border-radius: 90px;
+    color: #3E424D;
+    font-weight: 700;
+    font-size: larger;
 }
 
 a.previous {

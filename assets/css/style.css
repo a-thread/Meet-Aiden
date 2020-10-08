@@ -27,7 +27,7 @@ div.navLinks {
     justify-content: flex-end;
 }
 
-li.nav-item, a.nav-link, a.previous, a.next {
+li.nav-item, a.nav-link {
     font-weight: 400;
     margin-top: 0;
     padding-top: 0;
@@ -275,7 +275,7 @@ div.btnsRow {
     justify-content: center;
 }
 
-a.site, a.gitrepo, a.previous, a.next {
+a.site, a.gitrepo  {
     background-color: #A6B58A;
     color: black;
 }
@@ -286,7 +286,7 @@ a.site, a.gitrepo {
     width: 5rem;
 }
 
-a.site:hover, a.gitrepo:hover, a.next:hover, a.previous:hover{
+a.site:hover, a.gitrepo:hover {
     background-color: #474C5C;
     color: whitesmoke;
     font-weight: 400;
