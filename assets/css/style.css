@@ -16,7 +16,7 @@ nav.nav {
 }
 
 h2.logo {
-    color:white;
+    color: white;
 }
 
 img.logo-header {
@@ -45,7 +45,7 @@ a.nav-link:hover {
     color: white;
 }
 
-a.dropdown-item:hover, a.footer-item:hover{
+a.dropdown-item:hover, a.footer-item:hover {
     background-color: #BBCB9F;
     color: #3E424D;
 }
@@ -58,25 +58,26 @@ div.dropdown-menu {
 
 nav.footer {
     background-color: #3E424D;
-    max-height: 2.5rem;
+    max-height: 3rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
 a.footer-item {
-    border-radius: 90px;
+    border-radius: 8px;
+    text-align: center;
     margin-left: 1rem;
     margin-right: 1rem;
-    padding-left: 10px;
-    padding-right: 10px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
     color: #BBCB9F;
     font-size: 20px
 }
 
 /* Contact Me */
 
-ul.contact-list {
+.contact-list {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -93,14 +94,13 @@ div.intro-background {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    min-height: 85vh;
+    min-height: 80vh;
     min-width: 100vw;
 }
 
 div.intro {
     order: 2;
     max-width: 550px;
-    padding-top: 5rem;
 }
 
 div.headshot-image {
@@ -111,7 +111,6 @@ div.headshot-image {
 
 img.headshot-round {
     width: 30rem;
-    padding-top: 5rem;
 }
 
 h1 {
@@ -182,8 +181,41 @@ h3 {
 main.about-me {
     width: 100vw;
     background-color: #faf9f9;
-    padding-top: 3.5rem;
-    padding-bottom: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* Contact */
+
+#contact {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #9FC5CE;
+
+}
+
+div.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+a.contact-item {
+    align-items: flex-start;
+    list-style-type: none;
+    color: #3E424D;
+    font-size: large;
+    padding: .5rem;
+}
+
+i.fas, i.fab {
+    margin: 5px;
+    font-size: larger;
+}
+
+i.fa-bars {
+    padding: 0;
 }
 
 /* Bio width and spacing */
@@ -275,7 +307,7 @@ div.btnsRow {
     justify-content: center;
 }
 
-a.site, a.gitrepo  {
+a.site, a.gitrepo {
     background-color: #A6B58A;
     color: black;
 }
@@ -341,4 +373,7 @@ a.site:hover, a.gitrepo:hover {
     #container {
         width: fit-content;
     }
-} 
+    a.contact-item {
+        font-size: medium;
+    }
+}
