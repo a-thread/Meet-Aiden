@@ -3,6 +3,10 @@
 body {
     background-color: #dbe3e6;
     font-family: "Open Sans", sans-serif;
+}
+
+/* Adding padding for sticky footer on main page */
+body.main {
     padding-bottom: 3.5rem;
 }
 
