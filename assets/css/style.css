@@ -283,6 +283,10 @@ div.port-items {
 
 /* Portfolio Section */
 
+#portfolio {
+    margin-bottom: 1.5rem;
+}
+
 h2.portfolio-title {
     margin-top: 1.5rem;
 }
@@ -327,6 +331,22 @@ a.site:hover, a.gitrepo:hover {
     color: whitesmoke;
     font-weight: 400;
 }
+
+/* testimonials */
+
+#testimonials {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #9FC5CE;
+
+}
+
+p.feedback {
+    font-size: medium;
+    font-weight: 600;
+    font-style: italic;
+}
+
 
 @media screen and (max-width: 800px) {
     /* sizing for nav */
