@@ -9,11 +9,20 @@ $(document).ready(function () {
   // bio scroll reveal
   ScrollReveal().reveal("div.bio-container", {
     viewFactor: 0.2,
-    reset: true,
+    reset: true
   });
 
-  // porfolio scroll reveal
-  ScrollReveal().reveal("div.card", {
+  ScrollReveal().reveal("#portfolio", {
+    viewFactor: 0.2,
+    reset: true
+  });
+
+  ScrollReveal().reveal("#testimonials", {
+    viewFactor: 0.2,
+    reset: true
+  });
+
+  ScrollReveal().reveal("#contact", {
     viewFactor: 0.2,
     reset: true
   });
