@@ -22,7 +22,7 @@ This is a portfolio website containing contact information, project examples, as
 ## Personalized Stylings
 I used Canva to create a personalized headshot to add a simple but elegant touch to the layout. Through Coolors, I was able to put together a unique and eye-catching color scheme to tie the whole site together. I also used Animate CSS for the headers on my intro section in conjunction with Scroll Reveal to make my Intro section and Portfolio section more dynamic. 
 
-![animateCss intro gif](./assets/images/md/animateCss.gif)
+![animateCss intro gif](./assets/images/md/animateCSS.gif)
 
 ### License 
 
