@@ -138,21 +138,16 @@ h3 {
     font-size: 38px;
 }
 
-span.typewrite {
-    color: #BBCB9F;
-    text-decoration: underline;
-    text-decoration-color: #9FC5CE;
-    font-size: 3vh;
-}
-
 /* typwriter Descriptor */
 
-.typewrite {
+span.typewrite {
+    color: #BBCB9F;
+    text-decoration-color: #9FC5CE;
+    font-size: 3vh;
     overflow: hidden;
     border-right: .15em solid #faf9f9;
     white-space: nowrap;
     margin: 0 auto;
-    text-decoration: underline;
     text-decoration-color: #BBCB9F;
     font-size: 3vh;
     letter-spacing: .1em;
