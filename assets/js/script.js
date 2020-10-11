@@ -7,6 +7,7 @@ $(document).ready(function () {
   });
   
   ScrollReveal().reveal('button.btn-outline-light', { delay: 1000 });
+  ScrollReveal().reveal('.typewrite', { delay: 650 });
 
   ScrollReveal().reveal("div.bio-container", {
     viewFactor: 0.2,
