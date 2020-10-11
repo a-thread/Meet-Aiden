@@ -357,9 +357,6 @@ p.feedback {
 
 @media screen and (max-width: 800px) {
     /* sizing for nav */
-    h2.logo {
-        font-size: 6vw;
-    }
     li.nav-item, a.nav-link {
         font-size: 4vw;
         align-content: left;
@@ -386,6 +383,9 @@ p.feedback {
     h2 {
         font-size: 8vw;
         text-align: center;
+    }
+    h2.logo {
+        font-size: 5vw;
     }
     /* Portfolio Items */
     .port-card {
