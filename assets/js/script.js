@@ -6,7 +6,8 @@ $(document).ready(function () {
     $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
   });
   
-  // bio scroll reveal
+  ScrollReveal().reveal('button.btn-outline-light', { delay: 1000 });
+
   ScrollReveal().reveal("div.bio-container", {
     viewFactor: 0.2,
     reset: true

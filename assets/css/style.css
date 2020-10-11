@@ -107,7 +107,6 @@ div.intro-background {
     align-items: center;
     justify-content: center;
     min-height: 95vh;
-    min-width: 100vw;
 }
 
 div.intro {
@@ -160,6 +159,14 @@ span.typewrite {
     animation: typing 3.5s steps(40, end), blink-caret .75s step-end infinite;
 }
 
+/* intro */
+
+button.btn-outline-light {
+    margin-top: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    color: #9FC5CE;
+}
+
 /* The typing effect */
 
 @keyframes typing {
@@ -185,7 +192,6 @@ span.typewrite {
 /* About Me */
 
 main.about-me {
-    width: 100vw;
     background-color: #faf9f9;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -287,6 +293,7 @@ div.port-items {
 #portfolio {
     padding-top: 4rem;
     padding-bottom: 4rem;
+    width: 100%;
 }
 
 h2.portfolio-title {
@@ -361,7 +368,6 @@ p.feedback {
         border-right: none;
         padding-right: 10px;
     }
-    /* intro */
     div.intro-background, div.headshot-image {
         display: flex;
         flex-direction: column;
@@ -371,7 +377,6 @@ p.feedback {
     }
     div.headshot-image {
         margin-bottom: 1rem;
-
     }
     img.headshot-round {
         width: 50vw;
