@@ -5,10 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="./assets/images/favicon_io/site.webmanifest">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
@@ -22,83 +19,88 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <!-- Local CSS -->
+    <link href="./assets/css/style.css" rel="stylesheet" />
     <link href="./assets/css/resume.css" rel="stylesheet" />
     <title>Aiden Threadgoode Portfolio</title>
 </head>
 
 <!-- Navbar -->
-<nav class="nav navbar navbar-expand-lg">
-    <!-- logo -->
-    <a class="navbar-brand">
-        <h2 class="logo text-white">Aiden Threadgoode</h2>
-    </a>
-    <!-- Toggle Button -->
-    <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars"></i>
-    </button>
-    <!-- Nav Items -->
-    <div class="collapse navbar-collapse navLinks" id="navbarNav">
-        <ul class="navbar-nav">
-            <!-- Portfolio -->
-            <li class="nav-item">
-                <a class="nav-link" href="./index.html">Home</a>
-            </li>
-            <!-- Portfolio -->
-            <li class="nav-item">
-                <a class="nav-link" href="./index.html#portfolio">Portfolio</a>
-            </li>
-            <!-- Bio -->
-            <li class="nav-item">
-                <a class="nav-link" href="./index.html#bio">About Me</a>
-            </li>
-            <!-- Contact -->
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Contact</a>
-                <!-- Contact Items -->
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <!-- Github -->
-                    <a class="dropdown-item" href="https://github.com/a-thread" target="_blank">GitHub</a>
-                    <!-- LinkedIn -->
-                    <a class="dropdown-item" href="https://www.linkedin.com/in/a-thread" target="_blank">LinkedIn</a>
-                    <!-- Email -->
-                    <a class="dropdown-item" href="mailto:aiden.threadgoode@gmail.com">Email</a>
-                </div>
-                <!-- end Contact List -->
-            </li>
-        </ul>
-    </div>
-    <!-- End Nav -->
-</nav>
 
-<body class="resume">
-    <div class="container resume">
-        <embed src="./assets/images/a-thread_resume.pdf" class="resume-pdf" width="800px" height="2100px" />
-    </div>
-</body>
+<body>
+    <!-- Navbar -->
+    <nav class="nav navbar navbar-expand-lg fixed-top">
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html">
+            <h2 class="logo">AIDEN <span class="lastname">THREADGOODE</span></h2>
+        </a>
+        <!-- Toggle Button -->
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
+            data-target="#navbarNav" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="brgr fas fa-bars"></i>
+        </button>
+        <!-- Nav Items -->
+        <div class="collapse navbar-collapse navLinks" id="navbarNav">
+            <ul class="navbar-nav">
+                <!-- Portfolio -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html#portfolio">PROJECTS</a>
+                </li>
+                <!-- Resume -->
+                <li class="nav-item">
+                    <a class="nav-link resume" href="./resume.html">RESUME</a>
+                </li>
+                <!-- Bio -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html#bio">BIO</a>
+                </li>
+                <!-- Contact -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Contact</a>
+                    <!-- Contact Items -->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <!-- Github -->
+                        <a class="dropdown-item" href="https://github.com/a-thread" target="_blank">GitHub</a>
+                        <!-- LinkedIn -->
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/a-thread"
+                            target="_blank">LinkedIn</a>
+                        <!-- Email -->
+                        <a class="dropdown-item" href="mailto:aiden.threadgoode@gmail.com">Email</a>
+                    </div>
+                    <!-- end Contact List -->
+                </li>
+            </ul>
+        </div>
+        <!-- End Nav -->
+    </nav>
 
-<!-- Footer -->
-<nav class="footer navbar fixed-bottom">
-    <!-- Github -->
-    <a class="footer-item" href="https://github.com/a-thread" target="_blank"><i class="fab fa-github"></i></a>
-    <!-- LinkedIn -->
-    <a class="footer-item" href="https://www.linkedin.com/in/a-thread" target="_blank"><i
-            class="fab fa-linkedin"></i></a>
-    <!-- Email -->
-    <a class="footer-item" href="mailto:aiden.threadgoode@gmail.com"><i class="fas fa-paper-plane"></i></a>
-</nav>
+    <body class="resume">
+        <div class="container resume">
+            <embed src="./assets/images/a-thread_resume.pdf" class="resume-pdf" width="800px" height="2100px" />
+        </div>
+    </body>
 
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<!-- Bootstrap Js -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
-<!-- Scroll Reveal -->
-<script src="https://unpkg.com/scrollreveal"></script>
-<!-- Local Script -->
-<script src="./assets/script.js"></script>
+    <!-- Footer -->
+    <nav class="footer navbar fixed-bottom">
+        <!-- Github -->
+        <a class="footer-item" href="https://github.com/a-thread" target="_blank"><i class="fab fa-github"></i></a>
+        <!-- LinkedIn -->
+        <a class="footer-item" href="https://www.linkedin.com/in/a-thread" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+        <!-- Email -->
+        <a class="footer-item" href="mailto:aiden.threadgoode@gmail.com"><i class="fas fa-paper-plane"></i></a>
+    </nav>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Local Script -->
+    <script src="./assets/script.js"></script>
 </body>
 
 </html>

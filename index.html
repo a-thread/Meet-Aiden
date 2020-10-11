@@ -27,35 +27,34 @@
 
 <body class="main">
     <!-- Navbar -->
-    <nav class="nav navbar navbar-expand-lg">
+    <nav class="nav navbar navbar-expand-lg fixed-top">
         <!-- logo -->
         <a class="navbar-brand" href="index.html">
-            <h2 class="logo">Aiden Threadgoode</h2>
-            <!-- <img class="logo" alt="github-username" src="assets/images/logos/white.png"> -->
+            <h2 class="logo">AIDEN <span class="lastname">THREADGOODE</span></h2>
         </a>
         <!-- Toggle Button -->
-        <button class="navbar-toggler navbar-light bg-light" type="button" data-toggle="collapse"
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse"
             data-target="#navbarNav" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
+            <i class="brgr fas fa-bars"></i>
         </button>
         <!-- Nav Items -->
         <div class="collapse navbar-collapse navLinks" id="navbarNav">
             <ul class="navbar-nav">
                 <!-- Portfolio -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">PROJECTS</a>
                 </li>
                 <!-- Resume -->
                 <li class="nav-item">
-                    <a class="nav-link" href="./resume.html">Resume</a>
+                    <a class="nav-link" href="./resume.html">RESUME</a>
                 </li>
                 <!-- Bio -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#bio">About Me</a>
+                    <a class="nav-link" href="#bio">BIO</a>
                 </li>
                 <!-- Contact -->
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="#contact">CONTACT</a>
                 </li>
             </ul>
         </div>
@@ -65,12 +64,12 @@
     <div class="intro-background">
         <!-- Headshot Image -->
         <div class="headshot-image col-md-6 col-sm-12">
-            <img src="./assets/images/profile-photo.png"
-                class="headshot-round img-fluid animate__animated animate__rollIn" alt="Headshot of Aiden" />
+            <img src="./assets/images/aiden.png" class="headshot-round img-fluid animate__animated animate__rollIn"
+                alt="Headshot of Aiden" />
         </div>
         <div class="col-md-6 col-sm-12 intro">
             <!-- Name -->
-            <h1 class="intro-title animate__animated animate__backInLeft">meet Aiden</h1>
+            <h1 class="intro-title animate__animated animate__backInLeft">Hi, I'm <span class="green">Aiden.</span></h1>
             <!-- Descriptors -->
             <h2 class="typing">
                 <span class="typewrite" data-period="2000"
@@ -86,11 +85,11 @@
         <div class="container bio-container">
             <div class="row">
                 <!-- About Me Title-->
-                <h2 class="col-md-4 about-title">
-                    About Me
+                <h2 class="col-md-3 about-title">
+                    BIO
                 </h2>
 
-                <article class="col-md-8">
+                <article class="col-md-9">
                     <!-- Bio -->
                     <p class="bio-content">
                         Full stack web developer with graphic design background educated at University of
@@ -116,47 +115,12 @@
         </div>
     </main>
 
-    <!-- Contact Section -->
-    <main id="contact">
-        <div class="container">
-            <div class="row">
-                <!-- Title-->
-                <h2 class="col-md-4 about-title">
-                    Contact
-                </h2>
-
-                <article class="col-md-8">
-                    <div class="contact-info">
-                        <!-- Github -->
-                        <a class="contact-item" href="https://github.com/a-thread" target="_blank"><strong><i
-                                    class="fab fa-github"></i>
-                                Github:</strong> github.com/a-thread</a>
-                        <!-- LinkedIn -->
-                        <a class="contact-item" href="https://www.linkedin.com/in/a-thread" target="_blank"><strong><i
-                                    class="fab fa-linkedin"></i> LinkedIn:</strong>
-                            linkedin.com/in/aiden-threadgoode/</a>
-                        <!-- Email -->
-                        <a class="contact-item" href="mailto:aiden.threadgoode@gmail.com"><strong><i
-                                    class="fas fa-paper-plane"></i>
-                                Email:</strong>
-                            aiden.threadgoode@gmail.com</a>
-                        <!-- phone -->
-                        <a class="contact-item" href="tel:2077491341"><i class="fas fa-phone"><strong></i>
-                            Phone:</strong>
-                            207-749-1341</a>
-                    </div>
-                </article>
-                <!-- End About Me -->
-            </div>
-        </div>
-    </main>
-
     <!-- Portfolio Section -->
     <main class="portfolio-main container" id="portfolio">
 
         <!-- Header -->
         <h2 class="portfolio-title">
-            Portfolio
+            PROJECTS
         </h2>
 
         <hr />
@@ -277,18 +241,15 @@
         </div>
     </main>
 
-    <main id="testimonials">
-        <div class="row">
-            <div class="container">
-
+    <main id="feedback">
+        <div class="container">
+            <div class="row">
                 <!-- Header -->
-                <h2 class="portfolio-title">
-                    Testimonials
+                <h2 class="col-md-3 ">
+                    FEEDBACK
                 </h2>
 
-                <hr />
-
-                <article>
+                <article CLASS="col-md-9">
                     <p class="feedback">
                         "Aiden is always in a good mood making him a pleasure to work with. Would gladly work with
                         him again."
@@ -312,6 +273,41 @@
                     </p>
                 </article>
                 <!-- End Testimonials -->
+            </div>
+        </div>
+    </main>
+
+    <!-- bio Section -->
+    <main id="contact">
+        <div class="container">
+            <div class="row">
+                <!-- Title-->
+                <h2 class="col-md-3 contact-title">
+                    Contact
+                </h2>
+
+                <article class="col-md-9">
+                    <div class="contact-info">
+                        <!-- Github -->
+                        <a class="contact-item" href="https://github.com/a-thread" target="_blank"><strong><i
+                                    class="fab fa-github"></i>
+                                Github:</strong> github.com/a-thread</a>
+                        <!-- LinkedIn -->
+                        <a class="contact-item" href="https://www.linkedin.com/in/a-thread" target="_blank"><strong><i
+                                    class="fab fa-linkedin"></i> LinkedIn:</strong>
+                            linkedin.com/in/aiden-threadgoode/</a>
+                        <!-- Email -->
+                        <a class="contact-item" href="mailto:aiden.threadgoode@gmail.com"><strong><i
+                                    class="fas fa-paper-plane"></i>
+                                Email:</strong>
+                            aiden.threadgoode@gmail.com</a>
+                        <!-- phone -->
+                        <a class="contact-item" href="tel:2077491341"><i class="fas fa-phone"><strong></i>
+                            Phone:</strong>
+                            207-749-1341</a>
+                    </div>
+                </article>
+                <!-- End About Me -->
             </div>
         </div>
     </main>

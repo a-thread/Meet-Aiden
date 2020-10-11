@@ -9,11 +9,12 @@ article.portfolio, div.btnsRow, div.port-nav {
 }
 
 article.portfolio {
-    padding-top: 5rem;
+    padding-top: 2rem;
 }
 
 div.port-nav {
     padding-top: 3rem;
+    padding-bottom: 4rem;
     justify-content: space-between;
     align-content: space-between;
 }
