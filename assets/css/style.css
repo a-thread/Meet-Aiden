@@ -116,8 +116,8 @@ div.intro {
 
 div.headshot-image {
     order: 1;
-    max-width: 550px;
-    justify-content: end;
+    max-width: 30rem;
+    text-align: center;
 }
 
 img.headshot-round {
@@ -367,18 +367,17 @@ p.feedback {
         align-items: center;
         text-align: center;
     }
-    div.headshot-image {
-        margin-bottom: 1rem;
-    }
     img.headshot-round {
-        width: 50vw;
-        height: 50vw;
-        margin-top: 1rem;
+        width: 70vw;
     }
     /* All headers */
-    h2 {
+    h2, h1 {
         font-size: 8vw;
         text-align: center;
+        margin-top: 10px;
+    }
+    span.typewrite {
+        font-size: 5vw;
     }
     h2.logo {
         font-size: 5vw;
