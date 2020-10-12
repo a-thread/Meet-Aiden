@@ -372,6 +372,7 @@ p.feedback {
     }
     img.headshot-round {
         width: 50vw;
+        height: 50vw;
         margin-top: 1rem;
     }
     /* All headers */
