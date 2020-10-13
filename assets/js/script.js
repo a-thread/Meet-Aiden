@@ -15,7 +15,7 @@ $(document).ready(function () {
   });
 
   ScrollReveal().reveal("#portfolio", {
-    viewFactor: 0.2,
+    viewFactor: 0.02,
     reset: true
   });
 

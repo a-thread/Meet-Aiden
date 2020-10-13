@@ -401,3 +401,9 @@ p.feedback {
         font-size: medium;
     }
 }
+
+@media screen and (max-width: 800px) and (min-width: 463px) {
+    div.headshot-image {
+        padding-top: 85px;
+    }
+}
