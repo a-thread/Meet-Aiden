@@ -117,12 +117,13 @@ div.intro {
 div.headshot-image {
     order: 1;
     max-width: 30rem;
-    text-align: center;
+    text-align: right;
 }
 
 img.headshot-round {
-    width: 25rem;
+    max-width: 20rem;
     padding: 5px;
+    margin: 1rem;
     border-radius: 50%;
     border: 5px solid #BBCB9F;
 }
@@ -368,7 +369,7 @@ p.feedback {
         text-align: center;
     }
     img.headshot-round {
-        width: 70vw;
+        width: 50vw;
     }
     /* All headers */
     h2, h1 {
