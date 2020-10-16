@@ -37,6 +37,7 @@ a.next {
 img.port-img {
     margin: 2rem;
     width: 40vw;
+    align-self: flex-start;
 }
 
 h2.header {
@@ -57,13 +58,15 @@ div.port-nav {
     justify-content: space-around;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     article.portfolio {
         padding-top: 3rem;
         flex-direction: column;
     }
     img.port-img {
         margin: 1rem;
+        width: 50vw;
+        align-self: center;
         width: 90vw;
     }
 }

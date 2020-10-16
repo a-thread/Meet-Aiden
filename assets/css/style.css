@@ -371,6 +371,9 @@ p.feedback {
     img.headshot-round {
         width: 50vw;
     }
+    button.btn-outline-light {
+        margin-bottom: 3rem;
+    }
     /* All headers */
     h2, h1 {
         font-size: 8vw;
@@ -386,9 +389,10 @@ p.feedback {
     /* Portfolio Items */
     .port-card {
         width: 90vw;
+        margin: 1rem auto;
     }
     div.text {
-        font-size: 6vw;
+        font-size: 20px;
     }
     /* Bio Title Spacing */
     h2.about-title {
@@ -405,5 +409,26 @@ p.feedback {
 @media screen and (max-width: 800px) and (min-width: 463px) {
     div.headshot-image {
         padding-top: 85px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    li.nav-item {
+        border-right: none;
+        padding-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 463px) {
+    .overlay {
+        max-height: 5rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: .95;
+        z-index: 1000;
+    }
+    .text {
+        font-size: 20px;
     }
 }
